@@ -1,0 +1,33 @@
+리스트 [ ]
+딕셔너리 { key:value, 키:값 }  print(a[ ])
+꺼낼 때 대괄호로 꺼냄
+
+pep8
+
+random.choice(list) 임의적으로 하나의 요소를 선택
+random.sample(list, number) 임의적으로 특정 수의 요소를 선택, 비복원추출
+정수 난수, 리스트 내의 랜덤값 추출
+
+//
+import random
+
+numbers = list(range(1, 46))
+lucky_numbers = random.sample(numbers, 6)
+print(lucky_numbers)
+
+n = 1
+number = []
+while n < 46:
+  number.append(n)
+  n = n + 1
+print(number)
+
+for i in range(45):
+  numbers.append(i + 1)
+print(numbers)
+//
+
+git for windows
+typora
+vs-code
+python 3.7.3
