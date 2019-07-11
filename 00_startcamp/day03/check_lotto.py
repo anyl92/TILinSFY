@@ -9,15 +9,20 @@ bonus = 6
 # '' 3개가 같으면 5등
 # 나머지는 꽝
 
+m = 0
+
 for i in range(0, 6):
-    if my[i] == real[i]:
+    if my[i] == bonus:
+        m = 1
+    elif my[i] == real[i]:
         n = i
 
 print(i, n)
-
+print(m)
 
 if my == real:
     print('1등')
-elif (n = 4) & 
+elif (n == 4) & my[i] == bonus:
+    print('2등')
 else:
     print('꽝')
