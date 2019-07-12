@@ -6,8 +6,9 @@
 </head>
 <body>
     <h1>Send message here</h1>
-    <form action="/receive", method="POST">  <!--주소에 요청-->
-        <input type="text" name="msg">
+    <form action="/receive">  <!--, method= "POST"  주소에 요청-->
+        기업 : <input type="text" name="comp_name"><br>
+        단위 : <input type="text" name="money">
         <input type="submit" value="보내기">
     </form>
 </body>

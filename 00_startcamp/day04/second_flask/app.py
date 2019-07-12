@@ -5,6 +5,7 @@ from iexfinance.stocks import Stock
 import requests
 import bs4
 import csv
+import json
 
 app = Flask(__name__)
 
@@ -46,27 +47,51 @@ def send():
     return render_template('send.html')
 
 
-@app.route('/receive', methods=['POST'])
+# @app.route('/receive', methods=['POST'])
+# def receive():
+#     data = request.form.get('msg')
+#     token = 'pk_63c229409ff14b67a6cc81e38927f1c4'
+#     stock = Stock(data, token=token).get_quote()
+
+#     url = 'https://finance.naver.com/marketindex/?tabSel=exchange#tab_section'  # 네이버금융
+
+#     response = requests.get(url).text  # url에서 텍스트를 받아용
+#     text = bs4.BeautifulSoup(response, 'html.parser')  # 파이썬이 읽게ㅎㅎ
+#     rate = text.select_one('#exchangeList > li.on > a.head.usd > div > span.value').text
+#     # 데이터(리스트)에서 하나를 골라 텍스트만 남겨욥
+#     rate = float(rate.replace(',', ''))  # list를 float으로 만들건데 ,를 없애줘야행
+
+#     company_name = stock['companyName']
+#     latest_price = stock['iexRealtimePrice']
+#     print(type(stock['iexRealtimePrice']))  # float 타입이어따!
+
+#     mul = latest_price * rate
+#     return render_template('receive.html', mul=mul)
+
+
+@app.route('/receive')
 def receive():
-    data = request.form.get('msg')
+    data = request.args.get('comp_name')
+    money_data = request.args.get('money')
+
     token = 'pk_63c229409ff14b67a6cc81e38927f1c4'
     stock = Stock(data, token=token).get_quote()
-
-    url = 'https://finance.naver.com/marketindex/?tabSel=exchange#tab_section'  # 네이버금융
-
-    response = requests.get(url).text  # url에서 텍스트를 받아용
-    text = bs4.BeautifulSoup(response, 'html.parser')  # 파이썬이 읽게ㅎㅎ
-    rate = text.select_one('#exchangeList > li.on > a.head.usd > div > span.value').text
-    # 데이터(리스트)에서 하나를 골라 텍스트만 남겨욥
-    rate = float(rate.replace(',', ''))  # list를 float으로 만들건데 ,를 없애줘야행
-
-    company_name = stock['companyName']
     latest_price = stock['iexRealtimePrice']
-    print(type(stock['iexRealtimePrice']))  # float 타입이어따!
+    url = 'https://www.koreaexim.go.kr/site/program/financial/exchangeJSON?authkey=z6oY8VPVLsFt5DwacY4xg5cyuxU2XDYg&searchdate=20190711&data=AP01'
+    response = requests.get(url).text
+    currencies = json.loads(response)
 
-    mul = latest_price * rate
+    print(money_data)
+    
+    # info = currencies[12]['deal_bas_r']
+
+    for currency in currencies:
+        if currency['cur_unit'] == money_data:
+            mul = latest_price * float(currency['deal_bas_r'].replace(',', ''))
+    # dal_kor = money[]
+    print(mul)
+    # mul = latest_price * int(info)
     return render_template('receive.html', mul=mul)
-
 
 @app.route('/dday')
 def dday():

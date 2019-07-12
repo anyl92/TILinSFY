@@ -20,7 +20,7 @@ rows = top50 = text.select('.lst50')
     #     f.write(f'{rank},{title},{artist}\n')
 
 writer = csv.writer(open('melon50.csv', 'w', encoding='utf-8', newline=''))
-writer.writerow(['순위','제목','가수'])  # writerow에는 \n포함
+writer.writerow(['순위', '제목', '가수'])  # writerow에는 \n포함
 
 for row in rows:
         rank = row.select_one('td:nth-child(2) > div > span.rank').text
