@@ -1,10 +1,3 @@
-list_odd = []
+student = {'python': 80, 'algorithm': 99, 'django': 89, 'flask': 83}
 
-for number in range(1, 51):
-    if number % 2 == 1:
-        list_odd.append(number)
-
-print(list_odd)
-
-list_odd = list(range(1, 50, 2))
-print(list_odd)
+print(sum(student.values()) / len(student))
