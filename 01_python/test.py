@@ -8,39 +8,23 @@
 
 import math
 
-# def bis(n, mini=0, maxi=1):
-#     if maxi ** 2 == n:
-#         return maxi
-#     elif mini ** 2 == n:
-#         return mini
-#     elif math.isclose(mini, maxi):
-#         return mini
+def bis(n, mini=0, maxi=1):
+    if mini ** 2 == n:
+        return mini
     
-#     if mini ** 2 < n < maxi ** 2 :
-#         guess = (mini + maxi) / 2
-#         if guess ** 2 < n:
-#             return bis(n, guess, maxi)
-#         else:
-#             return bis(n, mini, guess)
-#     else:
-#         mini, maxi = maxi, maxi+1
-#         return bis(n, mini, maxi)
-        
-# print(bis(3))
+    elif maxi ** 2 == n:
+        return maxi
+    
+    elif math.isclose(mini, maxi):
+        return mini
 
-def bis(n, mini = 0, maxi = 1):
-    while not math.isclose(mini, maxi):
-        if maxi ** 2 == n:
-            return maxi
-        elif mini ** 2 == n:
-            return mini
-        elif mini ** 2 < n < maxi ** 2:
-            guess = (mini + maxi) / 2
-            if guess ** 2 < n:
-                mini = guess
-            else:
-                maxi = guess
-        else:
-            mini, maxi = maxi, maxi + 1
-    return mini
+    if mini ** 2 < n < maxi ** 2:
+        guess = (mini + maxi) / 2
+        if n > guess ** 2:
+            mini = guess
+        else :
+            maxi = guess
+    else:
+        mini, maxi = maxi, maxi + 1
+
 print(bis(3))
