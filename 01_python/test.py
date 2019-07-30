@@ -1,3 +1,11 @@
-import calc
+a = 1
+def func1():
+    a = 5
+    func2()
 
-print(calc.my_divi(1, 0))
+    
+def func2():
+    print(a, end='')
+
+func1()
+print(a)
