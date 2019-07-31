@@ -1,0 +1,21 @@
+.aa{
+    background-color: #ffff6a;
+    padding: 20px;
+}
+.bb{
+    background-color: #85f885;
+    width: 300px;
+    padding: 20px;
+}
+/* inline 속성 */
+.xx{
+    width: 200px;
+}
+.big-lh{
+    line-height: 2em;
+}
+
+/* inline-block 속성 */
+.ib{
+    display: inline-block;
+}

@@ -1,11 +1,7 @@
-a = 1
-def func1():
-    a = 5
-    func2()
+def my_sum(*args):
+    for e in args:
+        if type(e) not in (int, float):
+            return 'fail'
+    return sum(args)
 
-    
-def func2():
-    print(a, end='')
-
-func1()
-print(a)
+print(my_sum(1, 2, 'a'))

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        h1 {
+            font-size: 100%;  /* 브라우저 기본 px/100 % */
+            font-size: 16px;
+        }
+        p {
+            font-size: 1rem;  /* 브라우저 기본 폰트 사이즈 ==1 rem */
+            color: #ffffff;
+            color: rgba(255, 0, 255, 0.37)
+        }
+        div{
+            font-size: 100%;  /* 16px */
+        }
+        div li{
+            font-size: 2em;  /* 상속받은 100%가 1em */
+        }
+        div > div{
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        aaaa  <!-- 16px -->
+        <div>
+            bbbb  <!-- 16 * 0.8 px -->
+            <div>
+                cccc  <!-- 16 * 0.8 * 0.8 px -->
+                <div>
+                    dddd  <!-- 16 * 0.8 * 0.8 * 0.8 px -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1>This is my site</h1>
+    <div>
+        <h2>My cafe</h2>
+        <p>This is great cafe</p>
+        <ul>
+            <li>파스타</li>
+            <li>샐러드</li>
+        </ul>
+    </div>
+</body>
+</html>

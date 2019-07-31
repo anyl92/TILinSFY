@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="10_font_text.css">
+</head>
+<body>
+    <p>Default: 16px</p>
+    <p class="size-40 weight loose">size-40</p>
+    <p class="size-2x serif">size-2x</p>
+    <p class="size-150p sans-serif">size-150p</p>
+    <p class="size-large monospace">size-large</p>
+
+    <h1>Lorem ipsum</h1>
+    <h2>2019-07-31</h2>
+    <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic rerum voluptatem sequi, neque enim libero! Perspiciatis numquam corrupti modi quam non molestiae, labore, assumenda alias temporibus tempore eum earum vero!</p>
+    <p class="justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel optio reprehenderit possimus quasi voluptatum quia sit ea maiores autem ut impedit, a sunt, odit ducimus vitae. Amet at quia voluptatibus.</p>
+    <p class="center">
+        <a href="#">Ref</a>
+    </p>
+    <div class="center-image">
+        <img src="https://picsum.photos/200" alt="random-image">
+    </div>
+</body>
+</html>
