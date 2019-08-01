@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>bootstrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- container => 좌우 margin -->
+  <!-- container-fluid 넓게보고싶을때 -->
+  <div class="container bg-success p-3">
+    <div class="row bg-danger">
+      <div class="col-4 border border-dark">1/3</div>
+      <div class="col-4 border border-dark">1/3</div>
+      <div class="col-4 border border-dark">1/3</div>
+    </div>
+    <div class="row bg-primary">
+      <div class="col-9 border border-dark">
+        <div class="row">
+          <div class="col-4 border border-dark">1/3</div>
+          <div class="col-4 border border-dark">1/3</div>
+          <div class="col-4 border border-dark">1/3</div>
+          <!-- <div class="col-4 border border-dark">??</div> -->
+        </div>
+      </div>
+      <div class="col-3 border border-dark">1/4</div>
+    </div>
+    <div class="row bg-warning">
+      <div class="col-9 border border-dark">3/4</div>
+      <div class="col-4 border border-dark">???</div>
+      <div class="col-6 border border-dark">???</div>
+    </div>
+  </div>
+
+  <!-- Breakpoint col-[(xs), sm, md, lg, xl] -->
+  <div class="container">
+    <section class="row bg-dark">
+      <!-- {% for posting in postings %} -->
+      <article class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-light text-white">
+        <!-- <p>{{ posting.title }}</p> -->
+        <p>This is Article</p>
+      </article>
+      <!-- {% endfor %} -->
+      <article class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-light text-white">
+        <p>This is Article</p>
+      </article>
+      <article class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-light text-white">
+        <p>This is Article</p>
+      </article>
+      <article class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-light text-white">
+        <p>This is Article</p>
+      </article>
+      <article class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-light text-white">
+        <p>This is Article</p>
+      </article>
+      <article class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-light text-white">
+        <p>This is Article</p>
+      </article>
+      <article class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-light text-white">
+        <p>This is Article</p>
+      </article>
+      <article class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-light text-white">
+        <p>This is Article</p>
+      </article>
+      <article class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-light text-white">
+        <p>This is Article</p>
+      </article>
+      <article class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-light text-white">
+        <p>This is Article</p>
+      </article>
+      <article class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-light text-white">
+        <p>This is Article</p>
+      </article>
+      <article class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-light text-white">
+        <p>This is Article</p>
+      </article>
+    </section>
+    <!-- <section class="row bg-dark">
+      <article class="col-12 col-md-4 border border-light text-white">
+        <p>This is Article</p>
+      </article>
+    </section> -->
+  </div>
+
+  <!-- col offset -->
+  <div class="container mt-3">
+    <section class="row bg-info">
+      <article class="col-2 offset-5 border border-light text-white">
+        <p>This is Article</p>
+      </article>
+    <article class="col-2 border border-light text-white">
+          <p>This is Article</p>
+        </article>
+    </section>
+
+    <section class="row bg-secondary">
+        <article class="col-6 offset-3 border border-white">
+          <p>Test Article</p>
+        </article>
+        <article class="col-4 offset-4 border border-white">
+          <p>Test Article</p>
+        </article>
+    </section>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
