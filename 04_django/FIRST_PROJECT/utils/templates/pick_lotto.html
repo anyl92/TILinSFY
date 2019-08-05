@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>당신의 행운숫자</h1>
+    <ul>
+        {% for number in lucky_numbers %}
+            <li>{{ number }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
