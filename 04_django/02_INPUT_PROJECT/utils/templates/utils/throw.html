@@ -1,16 +1,18 @@
-{% extends 'utils/base.html' %}
-{% block title %}JOM{% endblock %}
-{% block body %}
-
-<h3>점집</h3>
-<h4>당신의 신상을 입력하시오</h4>
-<form action="/utils/catch/" method="GET">
-    <div>
-        성명 : <input type="text" name="name" placeholder="hangle" required>
-        생년 : <input type="number" name="birth" placeholder="####" required>
-        <input type="submit">
-    </div>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h3>점집</h3>
+    <h4>당신의 신상을 입력하시오</h4>
+    <form action="/utils/catch/" method="GET">
+        <div>
+            성명 : <input type="text" name="name" placeholder="hangle" required>
+            생년 : <input type="number" name="birth" placeholder="####" required>
+            <input type="submit">
+        </div>
 </form>
-
-{% endblock %}
+</body>
+</html>
