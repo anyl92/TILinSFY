@@ -1,0 +1,19 @@
+{% extends 'board/base.html' %}
+
+{% block title %}New article{% endblock  %}
+
+{% block body %}
+<h1>글을 써요</h1>
+<form action="/board/articles/create/" method="GET">
+    <div>
+        <input type="text" name="input_title">  
+        {% comment %} name이 키값으로 날라감 {% endcomment %}
+    </div>
+    <div>
+        <textarea name="input_content" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <input type="submit">
+    </div>
+</form>
+{% endblock  %}

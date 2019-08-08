@@ -1,0 +1,16 @@
+{% extends 'board/base.html' %}
+
+{% block title %}Article: {{ article.id }}{% endblock  %}
+
+{% block body %}
+<h1>{{ article.title }}</h1>
+<p>
+    {{ article.content }}
+</p>
+<span>
+<a href="/board/articles/"><button>목록</button></a>
+</span>
+<span>
+<a href="/board/articles/{{ article.id }}/delete/"><button onclick="return confirm('삭제?');">삭제</button></a>
+</span>
+{% endblock %}
