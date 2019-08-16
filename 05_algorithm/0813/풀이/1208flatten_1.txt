@@ -1,0 +1,34 @@
+import sys
+sys.stdin = open("input.txt","r")
+
+for tc in range(1, 11):
+    D = int(input())
+    Hs = list(map(int, input().split()))
+
+    # Hs.sort()
+    # for i in range(D):
+    #     Hs[99] -= 1
+    #     Hs[0] += 1
+    #
+    #     Hs.sort()
+    #
+    # print("#%d %d" % (tc, Hs[99]-Hs[0]))
+
+    cnts = [0]*101
+    for i in range(100):
+        cnts[Hs[i]] += 1
+    minidx = 0
+    maxidx = 100
+    while cnts[minidx] == 0: minidx += 1
+    while cnts[maxidx] == 0 : maxidx -=1
+
+    for i in range(D):
+        cnts[maxidx] -= 1
+        cnts[maxidx-1] += 1
+        if cnts[maxidx] == 0: maxidx -= 1
+
+        cnts[minidx] -= 1
+        cnts[minidx+1] += 1
+        if cnts[minidx] == 0: minidx += 1
+
+    print("#%d %d" % (tc, (maxidx - minidx)))

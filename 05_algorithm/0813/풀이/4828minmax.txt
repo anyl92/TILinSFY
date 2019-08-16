@@ -1,0 +1,21 @@
+import sys
+sys.stdin = open("input.txt", "r")
+
+TC = int(input())
+TC += 1
+
+for tc in range(1, TC):
+    N = int(input())
+
+    nums = list(map(int, input().split()))
+    print("#%d %d" % (tc, max(nums) - min(nums)))
+    # minV = nums[0]
+    # maxV=nums[0]
+    # for i in range(1,N):
+    #     if minV > nums[i]:
+    #         minV = nums[i]
+    #
+    #     if maxV < nums[i]:
+    #         maxV = nums[i]
+    #
+    # print("#%d %d" % (tc, maxV-minV))

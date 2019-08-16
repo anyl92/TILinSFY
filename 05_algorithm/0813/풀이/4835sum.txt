@@ -1,0 +1,41 @@
+import sys
+sys.stdin = open('input.txt', 'r')  # 파일에서 읽을 때 사용
+
+def find1(n, m):
+    maxV = 0
+    minV = 10000000
+    for i in range(0, n - m + 1):
+        #s = sum(v[i:i + m])
+        s = 0
+        for j in range (i, i+m): # v[i]부터 m개의 합 구하기
+            s = s + v[j]
+        if s > maxV:
+            maxV = s
+        if s < minV:
+            minV = s
+
+    return maxV - minV
+
+
+def find(n, m):
+    sum = 0;
+    for i in range(0, m):  # 첫 구간의 합
+        sum += v[i]
+    minV = sum
+    maxV = sum
+    for i in range(1, n - m + 1):  # 나머지 구간의 시작 인덱스
+        sum = sum - v[i - 1] + v[i + m - 1]
+        if sum > maxV:
+            maxV = sum
+        if sum < minV:
+            minV = sum
+
+    return maxV - minV
+
+
+T = int(input())
+for i in range(1, T + 1):
+    N, M = map(int, input().split())
+    v = list(map(int, input().split()))
+
+    print("#%d" % i, find(N, M))
