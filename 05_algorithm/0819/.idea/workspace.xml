@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac5550e8-e42b-41a2-8e5d-b11cae1a76e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GNS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bru.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nasa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sj.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day 01.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day02/Day 02.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day02/file_read.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day02/file_write.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day02/lunch.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day02/melon50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day02/melon50.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day02/scraping.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day02/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day02/web_browser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day03/Day 03.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day03/check_lotto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day03/first_web_app/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day03/first_web_app/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day03/get_lotto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day03/pick_lotto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day03/quiz.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day03/stock.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day04/Day04.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day04/second_flask/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day04/second_flask/templates/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day04/second_flask/templates/art.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day04/second_flask/templates/boxoffice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day04/second_flask/templates/dday.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day04/second_flask/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day04/second_flask/templates/receive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day04/second_flask/templates/result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day04/second_flask/templates/send.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_startcamp/Day06.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/calc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/fibo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/01/box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/01/container.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/01/dictionary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/01/docstring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/01/list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/01/typecasting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/01/variable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/02/elif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/02/enumerate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/02/for.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/02/for.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/02/for_style.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/02/if.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/02/if_style.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/02/loop-for.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/02/spacetab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/02/while.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/02/while_style.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/03/built_in.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/03/dict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/03/emc2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/03/func.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/03/func_des.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/03/func_ex_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/03/func_ex_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/03/func_ex_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/03/function_ex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/03/hanoi.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/03/hanoi.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/03/principle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/images/03/print.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/myPackage/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/myPackage/math/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/myPackage/math/formula.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/myPackage/web/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/myPackage/web/url.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/test/01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/test/01_teacher(1).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/test/01_teacher(2).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/test/02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/test/02_teacher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/test/03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/test/03_teacher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/test/04.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/test/04_teacher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/test/05.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/test/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_python/test/월말평가_Python.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/01_HTML/00_basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/01_HTML/01_semantic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/01_HTML/02_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/01_HTML/03_link_media.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/01_HTML/04_table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/01_HTML/05_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/01_HTML/day01.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/01_HTML/images/29693_12805_513.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/01_HTML/subway.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/01_HTML/worlshop09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/02_CSS/00_unit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/02_CSS/01_css.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/02_CSS/02_selectors1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/02_CSS/03_selectors2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/02_CSS/03_selectors2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/02_CSS/04_boxmodel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/02_CSS/04_boxmodel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/02_CSS/05_boxmodel_practice.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/02_CSS/05_boxmodel_practice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/02_CSS/06_display.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/02_CSS/06_display.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/02_CSS/07_visibility.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/02_CSS/07_visibility.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/02_CSS/08_opacity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/02_CSS/09_position.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/02_CSS/09_position.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/02_CSS/10_font_text.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/02_CSS/10_font_text.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/02_CSS/11_float.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/03_bootstrap/00_intro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/03_bootstrap/01_explore.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/03_bootstrap/02_spacing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/03_bootstrap/03_color.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/03_bootstrap/04_border.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/03_bootstrap/05_display.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/03_bootstrap/06_text.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/03_bootstrap/07_grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/03_bootstrap/11wk.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/03_bootstrap/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_web/workshop_10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_server_intro/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_server_intro/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_server_intro/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/first_project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/first_project/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/first_project/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/first_project/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/pages/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/pages/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/pages/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/pages/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/pages/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/pages/templates/help.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/pages/templates/portfolio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/pages/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/pages/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/pages/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/test_app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/test_app/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/test_app/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/test_app/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/test_app/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/test_app/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/test_app/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/utils/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/utils/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/utils/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/utils/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/utils/templates/check_int.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/utils/templates/cube.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/utils/templates/pick_lotto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/utils/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/utils/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/01_FIRST_PROJECT/utils/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/home/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/home/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/home/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/home/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/home/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/home/templates/home/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/home/templates/home/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/home/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/home/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/home/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/input_project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/input_project/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/input_project/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/input_project/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/utils/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/utils/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/utils/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/utils/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/utils/templates/utils/art.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/utils/templates/utils/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/utils/templates/utils/catch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/utils/templates/utils/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/utils/templates/utils/output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/utils/templates/utils/throw.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/utils/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/utils/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/02_INPUT_PROJECT/utils/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/model_project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/model_project/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/model_project/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/model_project/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/real_data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/real_data/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/real_data/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/real_data/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/real_data/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/real_data/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/real_data/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/real_data/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/students/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/students/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/students/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/students/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/students/migrations/0002_menu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/students/migrations/0003_hotissue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/students/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/students/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/students/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/03_MODEL_PROJECT/students/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/04_MTV_PROJECT/board/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/04_MTV_PROJECT/board/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/04_MTV_PROJECT/board/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/04_MTV_PROJECT/board/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/04_MTV_PROJECT/board/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/04_MTV_PROJECT/board/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/04_MTV_PROJECT/board/templates/board/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/04_MTV_PROJECT/board/templates/board/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/04_MTV_PROJECT/board/templates/board/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/04_MTV_PROJECT/board/templates/board/new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/04_MTV_PROJECT/board/templates/board/show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/04_MTV_PROJECT/board/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/04_MTV_PROJECT/board/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/04_MTV_PROJECT/board/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/04_MTV_PROJECT/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/04_MTV_PROJECT/mtv_project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/04_MTV_PROJECT/mtv_project/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/04_MTV_PROJECT/mtv_project/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/04_MTV_PROJECT/mtv_project/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/20190805.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/django_MTV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_django/vscode django setting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/.idea/TIL.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190812/Baby_gin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190812/Baby_jin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190812/Counting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190812/exmaple01/.idea/exmaple01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190812/exmaple01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190812/exmaple01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190812/exmaple01/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190812/exmaple01/hello-python.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190812/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190812/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190812/view.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190813/D3/2930 힙/2930 힙.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190813/D3/2930 힙/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190813/D3/2948. 문자열 교집합/2948. 문자열 교집합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190813/D3/2948. 문자열 교집합/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190813/D3/3032. 홍준이의 숫자 놀이/3032. 홍준이의 숫자 놀이.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190813/D3/3032. 홍준이의 숫자 놀이/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190813/workshop/1208/1208.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190813/workshop/1208/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190813/workshop/4828 min max/4828 min max.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190813/workshop/4828 min max/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190813/workshop/4831 전기버스/4831 전기버스.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190813/workshop/4831 전기버스/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190813/workshop/4834 숫자 카드/4834 숫자 카드.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190813/workshop/4834 숫자 카드/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190813/workshop/4835 구간합/4835 구간합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190813/workshop/4835 구간합/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190814/2차원배열/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190814/2차원배열/test_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190814/workshop/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190814/workshop/solving club.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190814/부분집합/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190814/부분집합/test_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190814/선택정렬/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190816/1259. 금속막대/1259. 금속막대.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190816/1259. 금속막대/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190816/4836. 색칠하기/4836. 색칠하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190816/4836. 색칠하기/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190816/4837. 부분집합의 합/4837. 부분집합의 합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190816/4837. 부분집합의 합/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190816/4839. 이진탐색/4839. 이진탐색.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190816/4839. 이진탐색/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190816/4843. 특별한 정렬/4843. 특별한 정렬.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/190816/4843. 특별한 정렬/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/120/120.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/120/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/121/121.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/121/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/122/122.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/122/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/125/125.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/125/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/126/126.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/126/copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/126/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/128/128.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/128/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/131/131.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/131/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/132/132.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/132/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/136/136.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/136/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/137/137.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/137/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/138/138.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/138/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/139/139.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/139/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/247/247.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/247/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/519/519.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/519/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/524/524.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/524/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/525/525.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/525/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/525/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/528/528.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/528/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/530/530.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/530/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/531/531.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/531/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/532/532.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/532/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/536/536.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/536/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/537/537.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/537/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/537/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/540/540.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/540/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/544/544.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/544/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/545/545.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/545/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/547/547.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/547/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/549/549.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/549/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/550/550.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/550/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/632/632.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/632/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/634/634.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/634/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/scratches/scratches/scratch.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1754246025">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="7" />
+          <entry key="txt" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="3076" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="3076" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/nasa.py" />
+        <option value="$PROJECT_DIR$/bbb.py" />
+        <option value="$PROJECT_DIR$/bru.py" />
+        <option value="$PROJECT_DIR$/sj.py" />
+        <option value="$PROJECT_DIR$/GNS.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="897" />
+    <option name="width" value="1030" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="0819" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0819" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.GNS">
+    <configuration name="GNS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0819" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GNS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bbb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0819" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bbb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bru" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0819" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bru.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nasa" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0819" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nasa.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sj" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0819" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sj.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.nasa" />
+      <item itemvalue="Python.bbb" />
+      <item itemvalue="Python.bru" />
+      <item itemvalue="Python.GNS" />
+      <item itemvalue="Python.sj" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.GNS" />
+        <item itemvalue="Python.sj" />
+        <item itemvalue="Python.bru" />
+        <item itemvalue="Python.bbb" />
+        <item itemvalue="Python.nasa" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac5550e8-e42b-41a2-8e5d-b11cae1a76e5" name="Default Changelist" comment="" />
+      <created>1566173986100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566173986100</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="897" y="0" width="1030" height="1047" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24798387" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26644737" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="95" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nasa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bbb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bru.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <marker date="1566191848220" expanded="true" signature="73:78" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GNS_test_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GNS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
