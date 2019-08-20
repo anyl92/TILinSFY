@@ -17,7 +17,7 @@ for tc in range(1, T+1):
                     M_num.append(k)
             i = i+1
 
-    #33333
+    # 33333
     # for i in range(len(M_num)):
     #     for j in range(i+1, len(M_num)):
     #         if M_num[i] > M_num[j]:
