@@ -21,14 +21,3 @@ for tc in range(1, 11):
                             flag = 0
                             break
 
-        while not flag:
-            for j in range(100):  # 열
-                for i in range(100-l):  # 행
-                    for k in range(N - i - 1):
-                        li[k] = L[k+j][j]
-                        if l == l[::-1]:
-                            l += 1
-                            flag = 0
-                        else:
-                            flag = 1
-                            break
