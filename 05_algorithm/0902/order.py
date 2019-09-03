@@ -1,48 +1,47 @@
 import sys
 sys.stdin = open('order_input.txt', 'r')
 
-def dfs(start):
-    global result
+def start(L):
+    stp = []
+    for i in range(len(L)):
+        for j in range(len(L)):
+            if L[i][0] == L[j][1]:
+                break
+        else:
+            stp += [L[i][0]]
+    return list(set(stp))
 
-    if len(result) == V:
-        return
-    visited[start] = 1
-    if start not in result:
-        result += [start]
-        #print(result)
-    for next in range(1, V+1):
-        if True not in parent:
-            return
-        if start == next:
-            continue
-        elif link_cord[start][next] and parent[next] != 0 and not visited[next]:
-            parent[next] -= 1
-            if parent[next] == 0:
-                result += [next]
-                visited[next] = 1
-                dfs(next)
-
-
-for tc in range(3):
-    result = []
+for tc in range(1, 11):
     V, E = map(int, input().split())
-    link_cord = [[0 for _ in range(V+1)] for _ in range(V+1)]
-    visited = [0] * (V+1)
-    parent = [0] * (V+1)
-    link = list(map(int, input().split()))
-    #print(V, E, link)
+    tmp = list(map(int, input().split()))
+    L = [tmp[2 * i:2 * i + 2] for i in range(E)]
+    # print(L)
+    # print(start(L))
+    visited = [i for i in range(1, V+1)]
 
-    while len(link) != 0:
-        b = link.pop()
-        a = link.pop()
-        link_cord[a][b] = 1
-        parent[b] += 1
-    for i in range(1, V+1):
-        if visited[i] == 1:
-            continue
-        if parent[i] == 0:
-            dfs(i)
-    print('#%d' % (tc), end=' ')
-    for i in result:
-        print('%d' % (i), end=' ')
-    print()
+    stack = []
+    stp = start(L)
+    path = []
+    for i in range(len(stp)):
+        stack.append(stp[i])
+
+    while stack:
+        current = stack.pop(-1)
+        trash = []
+
+        for edge in L:
+            if current == edge[1]:
+                break
+        else:
+            path.append(current)
+
+            for edge in L:
+                if current == edge[0]:
+                    stack.append(edge[1])
+                    trash.append(edge)
+
+            for t in trash:
+                L.remove(t)
+
+    print('#{} {}'.format(tc, ' '.join(list(map(str,path)))))
+
