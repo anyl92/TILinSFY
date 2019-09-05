@@ -42,6 +42,6 @@ for tc in range(1, 11):
 
             for t in trash:
                 L.remove(t)
-
+    print(len(path))
     print('#{} {}'.format(tc, ' '.join(list(map(str,path)))))
 

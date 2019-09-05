@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e97c0fe-84d2-4ef2-8555-7c985debf350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/0904/2048game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0904/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0904/new_calc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0904/pascal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0905/2048game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0905/back_2589_island.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0905/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0905/jh_order_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0905/jp_order_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0905/num_turn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0905/sudoku.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0820/stack3.py" beforeDir="false" afterPath="$PROJECT_DIR$/0820/stack3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0902/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/0902/order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0904/2048game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0904/pascal.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,76 +25,67 @@
     <session id="-1654404558">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="7" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bingo_input" value="2" />
-          <entry key="py" value="100" />
-          <entry key="txt" value="47" />
+          <entry key="py" value="117" />
+          <entry key="txt" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="49" />
-          <entry key="Python" value="100" />
+          <entry key="PLAIN_TEXT" value="51" />
+          <entry key="Python" value="117" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="25067" />
-          <entry key="txt" value="125" />
+          <entry key="py" value="28910" />
+          <entry key="txt" value="253" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="125" />
-          <entry key="Python" value="25067" />
+          <entry key="PLAIN_TEXT" value="253" />
+          <entry key="Python" value="28910" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.66504264">
+    <splitter split-orientation="horizontal" split-proportion="0.537196">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/0902/order.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+                <state relative-caret-position="592">
+                  <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/0904/2048game.py">
+            <entry file="file://$PROJECT_DIR$/0905/back_2589_island.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+                <state relative-caret-position="48">
+                  <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/0904/pascal.py">
+            <entry file="file://$PROJECT_DIR$/0905/jp_order_stack.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/0903/othello.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+                <state relative-caret-position="96">
+                  <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -95,12 +93,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/0904/input.txt">
+            <entry file="file://$PROJECT_DIR$/0905/input.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+                <state relative-caret-position="320">
+                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
                 </state>
               </provider>
             </entry>
@@ -122,15 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/0827/bingo_input2.txt" />
-        <option value="$PROJECT_DIR$/0827/queue1.py" />
-        <option value="$PROJECT_DIR$/0827/bingo.py" />
-        <option value="$PROJECT_DIR$/0827/queue2.py" />
-        <option value="$PROJECT_DIR$/0827/squence.txt" />
-        <option value="$PROJECT_DIR$/0827/squence.py" />
-        <option value="$PROJECT_DIR$/0827/BFS.py" />
-        <option value="$PROJECT_DIR$/0827/ey_BFS.py" />
-        <option value="$PROJECT_DIR$/0827/input.txt" />
         <option value="$PROJECT_DIR$/0827/test.py" />
         <option value="$PROJECT_DIR$/0827/input2.txt" />
         <option value="$PROJECT_DIR$/0828/line.py" />
@@ -168,17 +157,26 @@
         <option value="$PROJECT_DIR$/0903/othello.py" />
         <option value="$PROJECT_DIR$/0902/order_input.txt" />
         <option value="$PROJECT_DIR$/0902/a.py" />
-        <option value="$PROJECT_DIR$/0902/order.py" />
         <option value="$PROJECT_DIR$/0904/2048game.py" />
         <option value="$PROJECT_DIR$/0904/new_calc.py" />
-        <option value="$PROJECT_DIR$/0904/input.txt" />
         <option value="$PROJECT_DIR$/0904/pascal.py" />
+        <option value="$PROJECT_DIR$/0904/input.txt" />
+        <option value="$PROJECT_DIR$/0905/num_turn.py" />
+        <option value="$PROJECT_DIR$/0905/back_2589_island.py" />
+        <option value="$PROJECT_DIR$/0905/2048game.py" />
+        <option value="$PROJECT_DIR$/0902/order.py" />
+        <option value="$PROJECT_DIR$/0905/sudoku.py" />
+        <option value="$PROJECT_DIR$/0905/input.txt" />
+        <option value="$PROJECT_DIR$/0820/stack3.py" />
+        <option value="$PROJECT_DIR$/0905/jh_order_queue.py" />
+        <option value="$PROJECT_DIR$/0905/stack_prac1.py" />
+        <option value="$PROJECT_DIR$/0905/jp_order_stack.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="824" />
-    <option name="width" value="1102" />
+    <option name="x" value="490" />
+    <option name="width" value="1436" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -189,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,17 +197,18 @@
             <path>
               <item name="05_algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="05_algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="0904" type="462c0819:PsiDirectoryNode" />
+              <item name="0905" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -233,8 +231,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pascal">
-    <configuration name="2048game" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.jp_order_stack">
+    <configuration name="jp_order_stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="05_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,53 +240,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0904" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0905" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0904/2048game.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="05_algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0902" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0902/a.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="new_calc" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="05_algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0904" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0904/new_calc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0905/jp_order_stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -318,7 +274,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pascal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="stack3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="05_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -326,11 +282,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0904" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0820" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0904/pascal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0820/stack3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stack_prac1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="05_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0905" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0905/stack_prac1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sudoku" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="05_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0905" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0905/sudoku.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -340,19 +338,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.sudoku" />
       <item itemvalue="Python.order" />
-      <item itemvalue="Python.a" />
-      <item itemvalue="Python.2048game" />
-      <item itemvalue="Python.new_calc" />
-      <item itemvalue="Python.pascal" />
+      <item itemvalue="Python.stack3" />
+      <item itemvalue="Python.stack_prac1" />
+      <item itemvalue="Python.jp_order_stack" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pascal" />
-        <item itemvalue="Python.new_calc" />
-        <item itemvalue="Python.2048game" />
+        <item itemvalue="Python.jp_order_stack" />
+        <item itemvalue="Python.stack_prac1" />
+        <item itemvalue="Python.stack3" />
+        <item itemvalue="Python.sudoku" />
         <item itemvalue="Python.order" />
-        <item itemvalue="Python.a" />
       </list>
     </recent_temporary>
   </component>
@@ -370,15 +368,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="824" y="0" width="1102" height="1047" extended-state="0" />
+    <frame x="490" y="0" width="1436" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.16071428" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.14806867" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882537" weight="0.34539473" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44956142" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882537" weight="0.33223686" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3760965" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -420,75 +419,20 @@
           <url>file://$USER_HOME$/Downloads/미로/미로.py</url>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/0905/jp_order_stack.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/0905/jp_order_stack.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/0828/card_input.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0828/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0826/4881_minsum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="744" lean-forward="true" selection-start-line="744" selection-end-line="744" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0828/test.py" />
-    <entry file="file://$PROJECT_DIR$/0828/test.txt" />
-    <entry file="file://$PROJECT_DIR$/algorithm2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0826/card_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0826/minsum_input.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0829/ant2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0829/rabbit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0829/review.py" />
-    <entry file="file://$PROJECT_DIR$/0829/rabbit_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/190823_algorithm_TEST/문제2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -581,20 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0903/Forging_increase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0903/sero_talk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -663,27 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0902/order.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0904/2048game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0904/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/0904/new_calc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -691,17 +600,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0903/othello.py">
+    <entry file="file://$PROJECT_DIR$/0904/pascal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+        <state relative-caret-position="221">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0904/pascal.py">
+    <entry file="file://$PROJECT_DIR$/0904/2048game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0903/sero_talk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0904/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0903/othello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0903/Forging_increase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0905/num_turn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0905/2048game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2032">
+          <caret line="127" column="20" lean-forward="true" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0905/sudoku.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0823/prac1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0820/stack.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0820/stack2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0820/stack3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0905/jh_order_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0905/stack_prac1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" lean-forward="true" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0905/back_2589_island.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/tokenize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="453" selection-start-line="453" selection-end-line="453" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0905/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0902/order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0905/jp_order_stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
