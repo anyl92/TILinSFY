@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e97c0fe-84d2-4ef2-8555-7c985debf350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/0906/5102_node_distance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0906/5105_miro_distance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0906/a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0906/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0906/out_comp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0906/possible_score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0909/1231_inorder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0909/5174_subtree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0909/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0909/tree_prac1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,52 +18,87 @@
     <session id="-1654404558">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.2" value="7" />
-          <entry key="project.open.time.3" value="4" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.2" value="8" />
+          <entry key="project.open.time.3" value="5" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bingo_input" value="2" />
-          <entry key="py" value="131" />
-          <entry key="txt" value="50" />
+          <entry key="py" value="138" />
+          <entry key="txt" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="52" />
-          <entry key="Python" value="131" />
+          <entry key="PLAIN_TEXT" value="54" />
+          <entry key="Python" value="138" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="33729" />
-          <entry key="txt" value="254" />
+          <entry key="py" value="37362" />
+          <entry key="txt" value="259" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="254" />
-          <entry key="Python" value="33729" />
+          <entry key="PLAIN_TEXT" value="259" />
+          <entry key="Python" value="37362" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/0906/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.7059448">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/0909/tree_prac1.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="320">
+                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/0909/1231_inorder.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="160">
+                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/0909/5174_subtree.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="320">
+                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/0909/input.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="96">
+                  <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,10 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/0826/card_input.txt" />
-        <option value="$PROJECT_DIR$/0828/cardcounting.py" />
-        <option value="$PROJECT_DIR$/0826/4880_card.py" />
-        <option value="$PROJECT_DIR$/0828/input.txt" />
         <option value="$PROJECT_DIR$/0828/test.txt" />
         <option value="$PROJECT_DIR$/0828/test.py" />
         <option value="$PROJECT_DIR$/algorithm.py" />
@@ -131,12 +160,16 @@
         <option value="$PROJECT_DIR$/0906/5105_miro_distance.py" />
         <option value="$PROJECT_DIR$/0906/input.txt" />
         <option value="$PROJECT_DIR$/0906/5102_node_distance.py" />
+        <option value="$PROJECT_DIR$/0909/1231_inorder.py" />
+        <option value="$PROJECT_DIR$/0909/input.txt" />
+        <option value="$PROJECT_DIR$/0909/5174_subtree.py" />
+        <option value="$PROJECT_DIR$/0909/tree_prac1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="747" />
-    <option name="width" value="1179" />
+    <option name="x" value="946" />
+    <option name="width" value="980" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -147,7 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,12 +190,13 @@
             <path>
               <item name="05_algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="05_algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="0906" type="462c0819:PsiDirectoryNode" />
+              <item name="0909" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,7 +224,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.5102_node_distance">
+  <component name="RunManager" selected="Python.5174_subtree">
+    <configuration name="1231_inorder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="05_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0909" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0909/1231_inorder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="5102_node_distance" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="05_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,7 +288,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5174_subtree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="05_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,11 +296,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0906" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0909" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0906/a.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0909/5174_subtree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,7 +309,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="curl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tree_prac1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="05_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,32 +317,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0906" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0909" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0906/curl.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="out_comp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="05_algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0906" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0906/out_comp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0909/tree_prac1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -298,19 +331,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.out_comp" />
-      <item itemvalue="Python.curl" />
       <item itemvalue="Python.5105_miro_distance" />
-      <item itemvalue="Python.a" />
       <item itemvalue="Python.5102_node_distance" />
+      <item itemvalue="Python.tree_prac1" />
+      <item itemvalue="Python.1231_inorder" />
+      <item itemvalue="Python.5174_subtree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5174_subtree" />
+        <item itemvalue="Python.1231_inorder" />
+        <item itemvalue="Python.tree_prac1" />
         <item itemvalue="Python.5102_node_distance" />
         <item itemvalue="Python.5105_miro_distance" />
-        <item itemvalue="Python.a" />
-        <item itemvalue="Python.curl" />
-        <item itemvalue="Python.out_comp" />
       </list>
     </recent_temporary>
   </component>
@@ -328,15 +361,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="747" y="0" width="1179" height="1047" extended-state="0" />
+    <frame x="946" y="0" width="980" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" weight="0.17724551" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.1762226" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882537" weight="0.3125" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882537" weight="0.27083334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47368422" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,41 +416,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/0828/cardcounting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0826/4880_card.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0829/arrfind.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0902/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0902/list_pract3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/0902/linked_insert_sort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -627,13 +625,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0906/curl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/0906/curl.py" />
     <entry file="file://$PROJECT_DIR$/0902/bus_route.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -645,13 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0906/possible_score.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -687,6 +672,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/test01.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0906/possible_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0909/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0909/tree_prac1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0909/1231_inorder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0909/5174_subtree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
