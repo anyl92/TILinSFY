@@ -9,7 +9,7 @@ def perm(k, s):
     if k == N:
         tsum = 1
         for i in range(N):
-            tsum *= arr[i][t[i]] / 100
+            tsum *= L[i][t[i]] / 100
         if tsum > Max:
             Max = tsum
     else:
@@ -18,15 +18,16 @@ def perm(k, s):
                 continue
             t[k] = i
             visited[i] = 1
-            perm(k + 1, s * (arr[k][i] / 100))
+            perm(1+k, s*L[k][i]/100)
             visited[i] = 0
 
-for tc in range(1, 1+int(input())):
+T = int(input())
+for tc in range(1, T+1):
     N = int(input())
-    arr = [list(map(int, input().split())) for _ in range(N)]
+    L = [list(map(int, input().split())) for _ in range(N)]
 
     Max = 0
-    t = [0]*N
-    visited = [0]*N
+    t = [0] * N
+    visited = [0] * N
     perm(0, 1)
     print('#%d %.6f' % (tc, Max*100))

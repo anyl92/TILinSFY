@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e97c0fe-84d2-4ef2-8555-7c985debf350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/0917/dongcheol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0917/ey.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0917/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0917/pract1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0917/pract2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0918/5189_elcar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0918/5201_carry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0918/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0916/jung_bank.py" beforeDir="false" afterPath="$PROJECT_DIR$/0916/jung_bank.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0916/pass_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/0916/pass_code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0916/binary1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0916/binary2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0916/jung_bank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0917/dongcheol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0917/ey.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,40 +24,76 @@
         <counts>
           <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.2" value="11" />
+          <entry key="project.open.time.2" value="12" />
           <entry key="project.open.time.3" value="6" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bingo_input" value="2" />
-          <entry key="py" value="172" />
-          <entry key="txt" value="63" />
+          <entry key="py" value="187" />
+          <entry key="txt" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="65" />
-          <entry key="Python" value="172" />
+          <entry key="PLAIN_TEXT" value="72" />
+          <entry key="Python" value="187" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="48403" />
-          <entry key="txt" value="260" />
+          <entry key="py" value="51664" />
+          <entry key="txt" value="261" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="260" />
-          <entry key="Python" value="48403" />
+          <entry key="PLAIN_TEXT" value="261" />
+          <entry key="Python" value="51664" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <splitter split-orientation="horizontal" split-proportion="0.78530425">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/0918/5189_elcar.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/0918/5201_carry.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="288">
+                  <caret line="18" column="21" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/0918/input.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,12 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/0904/2048game.py" />
-        <option value="$PROJECT_DIR$/0904/new_calc.py" />
-        <option value="$PROJECT_DIR$/0904/pascal.py" />
-        <option value="$PROJECT_DIR$/0904/input.txt" />
-        <option value="$PROJECT_DIR$/0905/num_turn.py" />
-        <option value="$PROJECT_DIR$/0905/back_2589_island.py" />
         <option value="$PROJECT_DIR$/0905/2048game.py" />
         <option value="$PROJECT_DIR$/0902/order.py" />
         <option value="$PROJECT_DIR$/0905/sudoku.py" />
@@ -115,19 +146,25 @@
         <option value="$PROJECT_DIR$/0916/binary2.py" />
         <option value="$PROJECT_DIR$/0917/pract1.py" />
         <option value="$PROJECT_DIR$/0916/pass_code.py" />
-        <option value="$PROJECT_DIR$/0916/jung_bank.py" />
         <option value="$PROJECT_DIR$/0917/powerset.py" />
         <option value="$PROJECT_DIR$/0917/pract2.py" />
         <option value="$PROJECT_DIR$/0916/input.txt" />
         <option value="$PROJECT_DIR$/0917/input.txt" />
         <option value="$PROJECT_DIR$/0917/ey.py" />
         <option value="$PROJECT_DIR$/0917/dongcheol.py" />
+        <option value="$PROJECT_DIR$/0918/minsum.py" />
+        <option value="$PROJECT_DIR$/0918/new.py" />
+        <option value="$PROJECT_DIR$/0918/te.py" />
+        <option value="$PROJECT_DIR$/0916/jung_bank.py" />
+        <option value="$PROJECT_DIR$/0918/5189_elcar.py" />
+        <option value="$PROJECT_DIR$/0918/input.txt" />
+        <option value="$PROJECT_DIR$/0918/5201_carry.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="975" />
-    <option name="width" value="952" />
+    <option name="x" value="1018" />
+    <option name="width" value="909" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -146,6 +183,11 @@
               <item name="05_algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="05_algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="05_algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="05_algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="0918" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -154,7 +196,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -178,8 +220,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dongcheol">
-    <configuration name="dongcheol" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.5201_carry">
+    <configuration name="5189_elcar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="05_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,11 +229,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0917" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0918" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0917/dongcheol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0918/5189_elcar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,7 +242,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pass_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5201_carry" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="05_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -208,11 +250,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0916" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0918" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0916/pass_code.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0918/5201_carry.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,7 +263,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="powerset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="minsum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="05_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -229,11 +271,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0917" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0918" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0917/powerset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0918/minsum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,7 +284,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pract2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="new" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="05_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -250,11 +292,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0917" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0918" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0917/pract2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0918/new.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,7 +305,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pract3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="te" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="05_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -271,11 +313,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0917" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0918" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0917/pract3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0918/te.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,19 +327,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.pass_code" />
-      <item itemvalue="Python.pract2" />
-      <item itemvalue="Python.powerset" />
-      <item itemvalue="Python.pract3" />
-      <item itemvalue="Python.dongcheol" />
+      <item itemvalue="Python.minsum" />
+      <item itemvalue="Python.new" />
+      <item itemvalue="Python.te" />
+      <item itemvalue="Python.5189_elcar" />
+      <item itemvalue="Python.5201_carry" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dongcheol" />
-        <item itemvalue="Python.pract2" />
-        <item itemvalue="Python.pract3" />
-        <item itemvalue="Python.powerset" />
-        <item itemvalue="Python.pass_code" />
+        <item itemvalue="Python.5201_carry" />
+        <item itemvalue="Python.5189_elcar" />
+        <item itemvalue="Python.te" />
+        <item itemvalue="Python.minsum" />
+        <item itemvalue="Python.new" />
       </list>
     </recent_temporary>
   </component>
@@ -315,15 +357,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="975" y="0" width="952" height="1047" extended-state="0" />
+    <frame x="1018" y="0" width="909" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.13676149" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.17680827" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882537" weight="0.2993421" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.27960527" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49882537" visible="true" weight="0.35964912" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33333334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -335,25 +378,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.13676149" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882537" visible="true" weight="0.2993421" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.27960527" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4995015" weight="0.32894737" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011746" side_tool="true" weight="0.26206142" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -383,56 +407,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/0905/jh_order_queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0905/stack_prac1.py" />
-    <entry file="file://C:/Program Files/Python35/Lib/tokenize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="453" selection-start-line="453" selection-end-line="453" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0905/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0902/order.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0905/back_2589_island.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0905/2048game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0906/out_comp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/0906/curl.py" />
     <entry file="file://$PROJECT_DIR$/0902/bus_route.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -621,13 +595,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0917/powerset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/0917/powerset.py" />
     <entry file="file://$PROJECT_DIR$/0917/pract3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -649,13 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0916/jung_bank.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/0916/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -672,17 +633,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/0917/ey.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="304">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/0917/dongcheol.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="368">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0917/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0918/new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0918/minsum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0918/te.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0918/1865_new_dong.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0917/1865_dongcheol.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0916/jung_bank.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/0916/pass_code.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -691,10 +689,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0917/input.txt">
+    <entry file="file://$PROJECT_DIR$/0918/5189_elcar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0918/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0918/5201_carry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
