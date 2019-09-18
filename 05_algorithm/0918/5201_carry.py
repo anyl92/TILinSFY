@@ -13,14 +13,16 @@ for tc in range(1, T+1):
     # print(wei, fil)
 
     wei_x, fil_x = [], []
-
+    summ = 0
     for i in range(len(wei)):
         for j in range(i+1, len(wei)):
             if (wei[i]+wei[j]) in fil:
                 a = fil.index(wei[i] + wei[j])
                 wei_x += [i, j]
                 fil_x += [a]
-    print(wei_x, fil_x)
-    for x in wei_x:
+                summ += wei[i] + wei[j]
+                wei[i], wei[j], fil[a] = 0, 0, 0
+    # print(wei, fil)
+    # print(summ)
 
 

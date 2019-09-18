@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e97c0fe-84d2-4ef2-8555-7c985debf350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/0918/5189_elcar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0918/5201_carry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0918/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0916/binary1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0916/binary2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0916/jung_bank.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0917/dongcheol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0917/ey.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0918/5201_carry.py" beforeDir="false" afterPath="$PROJECT_DIR$/0918/5201_carry.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +14,7 @@
     <session id="-1654404558">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="12" />
           <entry key="project.open.time.3" value="6" />
@@ -44,14 +36,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="51664" />
+          <entry key="py" value="51740" />
           <entry key="txt" value="261" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="261" />
-          <entry key="Python" value="51664" />
+          <entry key="Python" value="51740" />
         </counts>
       </usages-collector>
     </session>
@@ -72,8 +64,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/0918/5201_carry.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="18" column="21" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="21" />
+                <state relative-caret-position="400">
+                  <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -358,14 +350,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1018" y="0" width="909" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.17680827" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49882537" visible="true" weight="0.35964912" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882537" weight="0.35964912" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33333334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -705,8 +696,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/0918/5201_carry.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="400">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
