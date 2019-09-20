@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e97c0fe-84d2-4ef2-8555-7c985debf350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/0919/1486_shelves.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0919/5201_carry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0919/5202_dok.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0919/5203_babygin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0919/5205_quick.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0919/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0919/pract1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0919/pract2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0920/3074_in.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0920/3074_in2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0920/5204_merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0920/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0918/5189_elcar.py" beforeDir="false" afterPath="$PROJECT_DIR$/0919/5189_elcar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0918/5201_carry.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0918/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/0918/input.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,49 +18,49 @@
     <session id="-1654404558">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="13" />
-          <entry key="project.open.time.3" value="6" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.open.time.3" value="7" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bingo_input" value="2" />
-          <entry key="py" value="201" />
-          <entry key="txt" value="75" />
+          <entry key="py" value="206" />
+          <entry key="txt" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="77" />
-          <entry key="Python" value="201" />
+          <entry key="PLAIN_TEXT" value="79" />
+          <entry key="Python" value="206" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="56415" />
+          <entry key="py" value="57704" />
           <entry key="txt" value="268" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="268" />
-          <entry key="Python" value="56415" />
+          <entry key="Python" value="57704" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4766949">
+    <splitter split-orientation="horizontal" split-proportion="0.842161">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/0919/5205_quick.py">
+            <entry file="file://$PROJECT_DIR$/0920/3074_in.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+                <state relative-caret-position="352">
+                  <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -77,10 +70,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/0919/pract1.py">
+            <entry file="file://$PROJECT_DIR$/0920/input.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="384">
-                  <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="12" />
+                <state relative-caret-position="64">
+                  <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -107,10 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/0906/out_comp.py" />
-        <option value="$PROJECT_DIR$/0906/curl.py" />
-        <option value="$PROJECT_DIR$/0906/a.py" />
-        <option value="$PROJECT_DIR$/0906/5105_miro_distance.py" />
         <option value="$PROJECT_DIR$/0906/input.txt" />
         <option value="$PROJECT_DIR$/0906/5102_node_distance.py" />
         <option value="$PROJECT_DIR$/0909/1231_inorder.py" />
@@ -158,12 +147,16 @@
         <option value="$PROJECT_DIR$/0919/input.txt" />
         <option value="$PROJECT_DIR$/0919/pract1.py" />
         <option value="$PROJECT_DIR$/0919/5205_quick.py" />
+        <option value="$PROJECT_DIR$/0920/input.txt" />
+        <option value="$PROJECT_DIR$/0920/3074_in.py" />
+        <option value="$PROJECT_DIR$/0920/3074_in2.py" />
+        <option value="$PROJECT_DIR$/0920/5204_merge.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="783" />
-    <option name="width" value="1144" />
+    <option name="x" value="847" />
+    <option name="width" value="1080" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -185,7 +178,7 @@
             <path>
               <item name="05_algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="05_algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="0916" type="462c0819:PsiDirectoryNode" />
+              <item name="0920" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,14 +191,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\student\TIL\05_algorithm\0919" />
-      <recent name="C:\Users\student\TIL\05_algorithm\0902" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\student\TIL\05_algorithm\0920" />
       <recent name="C:\Users\student\TIL\05_algorithm\0911" />
       <recent name="C:\Users\student\TIL\05_algorithm\0902" />
       <recent name="C:\Users\student\TIL\05_algorithm\0828" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\student\TIL\05_algorithm\0919" />
+      <recent name="C:\Users\student\TIL\05_algorithm\0902" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -220,8 +214,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.5205_quick">
-    <configuration name="1486_shelves" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.3074_in">
+    <configuration name="3074_in" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="05_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -229,11 +223,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0919" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0920" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0919/1486_shelves.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0920/3074_in.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,27 +249,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0919/5189_elcar.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5202_dok" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="05_algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0919" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0919/5202_dok.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -326,20 +299,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pract2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="05_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0919" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0919/pract2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.5202_dok" />
-      <item itemvalue="Python.1486_shelves" />
       <item itemvalue="Python.5203_babygin" />
       <item itemvalue="Python.5189_elcar" />
       <item itemvalue="Python.5205_quick" />
+      <item itemvalue="Python.3074_in" />
+      <item itemvalue="Python.pract2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3074_in" />
+        <item itemvalue="Python.pract2" />
         <item itemvalue="Python.5205_quick" />
         <item itemvalue="Python.5189_elcar" />
         <item itemvalue="Python.5203_babygin" />
-        <item itemvalue="Python.5202_dok" />
-        <item itemvalue="Python.1486_shelves" />
       </list>
     </recent_temporary>
   </component>
@@ -357,14 +351,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="783" y="0" width="1144" height="1047" extended-state="0" />
+    <frame x="847" y="0" width="1080" height="1047" extended-state="0" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.14647378" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.15355086" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882537" weight="0.2993421" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882537" weight="0.32017544" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36293858" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -390,9 +384,19 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="tmp_li" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>tmp_li</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>summ</expression-string>
         <language-id>Python</language-id>
@@ -406,28 +410,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/0906/possible_score.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0909/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0910/binary.py" />
-    <entry file="file://$PROJECT_DIR$/0910/Arithmetic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/0909/tree_prac1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -553,13 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="291" selection-start-line="291" selection-end-line="291" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/0917/ey.py" />
     <entry file="file://$PROJECT_DIR$/0917/dongcheol.py" />
     <entry file="file://$PROJECT_DIR$/0917/input.txt">
@@ -583,24 +558,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0919/pact2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/0919/pact2.py" />
     <entry file="file://$PROJECT_DIR$/0919/1486_shelves.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0919/pract2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -667,17 +629,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0919/5205_quick.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/0919/pract1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="12" />
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0920/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0919/5205_quick.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="291" selection-start-line="291" selection-end-line="291" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0919/pract2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0920/5204_merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0920/3074_in2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0920/3074_in.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
         </state>
       </provider>
     </entry>
