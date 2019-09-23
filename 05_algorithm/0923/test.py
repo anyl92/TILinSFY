@@ -7,8 +7,6 @@ def DFS():
     if o == N:
         pass
 
-
-
 N = int(input())
 L = [[0 for _ in range(N)] for _ in range(N)]
 dx = [0, 0, -1, 1, -1, 1, -1, 1]

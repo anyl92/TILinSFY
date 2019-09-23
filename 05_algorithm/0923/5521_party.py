@@ -23,11 +23,14 @@ for tc in range(1, T+1):
 
     L = [[] for _ in range(len(G))]
     for i in range(len(G)//2):
-        L[G[2*i]].append(G[2*i+1])
+        L[G[2 * i]].append(G[2 * i + 1])
+        L[G[2 * i + 1]].append(G[2 * i])
+    print(L)
 
     for i in range(2, len(L)):
         if i not in L[1]:
             L[i] = []
+    print(L)
 
     R = BFS(L, 1)
     if 1 in R:
