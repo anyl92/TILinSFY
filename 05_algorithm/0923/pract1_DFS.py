@@ -21,15 +21,27 @@ def DFS(G, start):
 print(DFS(G, 1))
 
 
-def dfs_visit(adj, u, V):
-    V.append(u)
-    for v in adj[u]:
-        if v not in V:
-            dfs_visit(adj, v, V)
+# def dfs_visit(adj, u, V):
+#     V.append(u)
+#     for v in adj[u]:
+#         if v not in V:
+#             dfs_visit(adj, v, V)
+#
+# def dfs(adj, s):
+#     V = []
+#     dfs_visit(adj, s, V)
+#     return V
+#
+# print(dfs(G, 1))
 
-def dfs(adj, s):
-    V = []
-    dfs_visit(adj, s, V)
-    return V
 
-print(dfs(G, 1))
+v = []
+
+def dfs(G, start, v):
+    v.append(start)
+    for i in G[start]:
+        if i not in v:
+            dfs(G, i, v)
+    return v
+
+print(dfs(G, 1, v))
