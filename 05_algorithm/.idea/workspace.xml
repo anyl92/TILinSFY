@@ -246,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.5247_calc">
+  <component name="RunManager" selected="Python.5248_group">
     <configuration name="5247_calc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="05_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -361,8 +361,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.5247_calc" />
         <item itemvalue="Python.5248_group" />
+        <item itemvalue="Python.5247_calc" />
         <item itemvalue="Python.5521_party" />
         <item itemvalue="Python.prack2_BFS" />
         <item itemvalue="Python.test" />
