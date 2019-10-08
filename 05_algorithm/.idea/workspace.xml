@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e97c0fe-84d2-4ef2-8555-7c985debf350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1002/back_1436_movie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1002/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1008/14502_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1008/16637_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1008/back_14502.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1008/back_16637_parentheses_add.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_db/add_classmates.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_db/add_one_classmates.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_db/create_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_db/delete.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_db/select.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_db/select2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_db/tutorial.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_db/update.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_db/users.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,35 +28,35 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="26" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.2" value="17" />
           <entry key="project.open.time.3" value="8" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bingo_input" value="2" />
-          <entry key="py" value="287" />
-          <entry key="txt" value="99" />
+          <entry key="py" value="289" />
+          <entry key="txt" value="101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="101" />
-          <entry key="Python" value="287" />
+          <entry key="PLAIN_TEXT" value="103" />
+          <entry key="Python" value="289" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="73760" />
+          <entry key="py" value="75187" />
           <entry key="txt" value="405" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="405" />
-          <entry key="Python" value="73760" />
+          <entry key="Python" value="75187" />
         </counts>
       </usages-collector>
     </session>
@@ -53,19 +64,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1002/input.txt">
+        <entry file="file://$PROJECT_DIR$/1008/back_16637_parentheses_add.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="19">
+              <caret line="1" column="40" lean-forward="true" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1002/back_1436_movie.py">
+        <entry file="file://$PROJECT_DIR$/1008/back_14502.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="125">
+              <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+              <folding>
+                <marker date="1570519456430" expanded="true" signature="72:77" ph="..." />
+                <marker date="1570519456430" expanded="true" signature="653:1778" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1008/14502_input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1008/16637_input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -90,10 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/0917/ey.py" />
-        <option value="$PROJECT_DIR$/0917/dongcheol.py" />
-        <option value="$PROJECT_DIR$/0918/minsum.py" />
-        <option value="$PROJECT_DIR$/0918/new.py" />
         <option value="$PROJECT_DIR$/0918/te.py" />
         <option value="$PROJECT_DIR$/0916/jung_bank.py" />
         <option value="$PROJECT_DIR$/0918/5189_elcar.py" />
@@ -141,10 +170,14 @@
         <option value="$PROJECT_DIR$/0930/back_7568.py" />
         <option value="$PROJECT_DIR$/1002/input.txt" />
         <option value="$PROJECT_DIR$/1002/back_1436_movie.py" />
+        <option value="$PROJECT_DIR$/1008/16637_input.txt" />
+        <option value="$PROJECT_DIR$/1008/back_16637_parentheses_add.py" />
+        <option value="$PROJECT_DIR$/1008/14502_input.txt" />
+        <option value="$PROJECT_DIR$/1008/back_14502.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="996" />
     <option name="width" value="931" />
     <option name="height" value="1047" />
@@ -168,7 +201,7 @@
             <path>
               <item name="05_algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="05_algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="1002" type="462c0819:PsiDirectoryNode" />
+              <item name="1008" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,17 +215,17 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\student\TIL\05_algorithm\0926" />
-      <recent name="C:\Users\student\TIL\05_algorithm\0919" />
-      <recent name="C:\Users\student\TIL\05_algorithm\0902" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\student\TIL\05_algorithm\0930" />
       <recent name="C:\Users\student\TIL\05_algorithm\0926" />
       <recent name="C:\Users\student\TIL\05_algorithm\0925" />
       <recent name="C:\Users\student\TIL\05_algorithm\0924" />
       <recent name="C:\Users\student\TIL\05_algorithm\0923" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\student\TIL\05_algorithm\0926" />
+      <recent name="C:\Users\student\TIL\05_algorithm\0919" />
+      <recent name="C:\Users\student\TIL\05_algorithm\0902" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -207,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.back_1436_movie">
+  <component name="RunManager" selected="Python.back_14502">
     <configuration name="back_1436_movie" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="05_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,6 +254,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1002/back_1436_movie.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="back_14502" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="05_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1008" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1008/back_14502.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="back_16637_parentheses_add" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="05_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1008" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1008/back_16637_parentheses_add.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,27 +325,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="back_2798_jack" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="05_algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0930" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0930/back_2798_jack.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="back_7568" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="05_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -292,41 +346,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="05_algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0926" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0926/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.back_2798_jack" />
       <item itemvalue="Python.back_2231" />
       <item itemvalue="Python.back_7568" />
       <item itemvalue="Python.back_1436_movie" />
+      <item itemvalue="Python.back_16637_parentheses_add" />
+      <item itemvalue="Python.back_14502" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.back_14502" />
+        <item itemvalue="Python.back_16637_parentheses_add" />
         <item itemvalue="Python.back_1436_movie" />
         <item itemvalue="Python.back_7568" />
         <item itemvalue="Python.back_2231" />
-        <item itemvalue="Python.back_2798_jack" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -344,16 +377,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="996" y="0" width="931" height="1047" extended-state="1" />
+    <frame x="996" y="0" width="931" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.18365061" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.18360655" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882537" visible="true" weight="0.33552632" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4265351" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882537" weight="0.3351178" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4261242" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -394,6 +427,26 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$USER_HOME$/Downloads/미로/미로.py</url>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1008/back_14502.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1008/back_14502.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1008/back_14502.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1008/back_14502.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -448,34 +501,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/0919/1486_shelves.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0919/5203_babygin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0918/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0919/5201_carry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/0919/5202_dok.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -628,27 +653,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/0926/2115_waterpool.py" />
-    <entry file="file://$PROJECT_DIR$/0926/14889_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0925/back_14889_teacher's(perm).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/powerset/powerset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/0926/14889_input.txt" />
+    <entry file="file://$PROJECT_DIR$/0925/back_14889_teacher's(perm).py" />
+    <entry file="file://$USER_HOME$/Downloads/powerset/powerset.py" />
     <entry file="file://$PROJECT_DIR$/0926/1952_waterpool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -677,15 +684,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untitled/문제3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/untitled/문제2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/untitled/문제1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/문제3.py" />
+    <entry file="file://$PROJECT_DIR$/untitled/문제2.py" />
+    <entry file="file://$PROJECT_DIR$/untitled/문제1.py" />
     <entry file="file://$PROJECT_DIR$/algorithm.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -696,20 +697,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0930/back_7568.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0930/back_2231.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/0930/back_7568.py" />
+    <entry file="file://$PROJECT_DIR$/0930/back_2231.py" />
     <entry file="file://$PROJECT_DIR$/0930/back_2798_jack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -717,20 +706,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0926/2115_honey.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0926/back_14889.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/0926/2115_honey.py" />
+    <entry file="file://$PROJECT_DIR$/0926/back_14889.py" />
     <entry file="file://$PROJECT_DIR$/0926/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -745,17 +722,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1002/input.txt">
+    <entry file="file://$PROJECT_DIR$/1002/back_1436_movie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        <state relative-caret-position="247">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1002/back_1436_movie.py">
+    <entry file="file://$PROJECT_DIR$/1002/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1008/16637_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1008/14502_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1008/back_16637_parentheses_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="40" lean-forward="true" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1008/back_14502.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+          <folding>
+            <marker date="1570519456430" expanded="true" signature="72:77" ph="..." />
+            <marker date="1570519456430" expanded="true" signature="653:1778" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

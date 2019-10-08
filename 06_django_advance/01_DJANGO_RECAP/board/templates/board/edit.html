@@ -1,0 +1,11 @@
+{% extends 'board/base.html' %}
+
+{% block title %}Edit article{% endblock title %}
+
+{% block body %}
+<h1>Edit article</h1>
+{% comment %} 왜 중요해요? > db에 반영 될 정보니까! {% endcomment %}
+
+{% include 'board/_form.html' %}
+
+{% endblock body %}

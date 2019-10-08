@@ -1,0 +1,20 @@
+{% extends 'board/base.html' %}
+
+{% block title %}Article list{% endblock %}
+
+{% block body %}
+    <h1>This is Article list</h1>
+    <a href="{% url 'board:new' %}">글쓰기</a>
+
+    <ul>
+        {% for article in articles %}
+            <li>
+                {% comment %} <a href="/board/articles/{{ article.id }}">{{ article.title }}</a> {% endcomment %}
+                {% comment %} <a href="{% url 'board:detail' article.id %}"> {% endcomment %}
+                <a href="{{ article.get_absolute_url }}"></a>
+                    {{ article.title }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

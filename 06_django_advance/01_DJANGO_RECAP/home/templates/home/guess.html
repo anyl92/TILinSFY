@@ -1,0 +1,30 @@
+{% extends 'home/base.html' %}
+
+{% block title %}
+    <!-- Greeting Page :) -->
+    Guess me
+{% endblock %}
+
+{% block body %}
+    <!-- {% if name == 'hi' %}
+        <h1>hihi??</h1>
+    {% else %}
+        <h1>Hi :) {{ name }}</h1>
+    {% endif %} -->
+    <h1>질문지</h1>
+    <form action="{% url 'home:answer' %}">
+        <div> 
+            <label for="q1">내 생일은?</label>
+            <input id="q1" name="q1" type="text">
+        </div>
+        <div>
+            <label for="q2">내 머리 길이는?</label>
+            <input id="q2" name="q2" type="text">
+        </div>
+        <div>
+            <label for="q3">내 무릎 상태는?</label>
+            <input id="q3" name="q3" type="text">
+        </div>
+        <input type="submit">
+    </form>
+{% endblock %}

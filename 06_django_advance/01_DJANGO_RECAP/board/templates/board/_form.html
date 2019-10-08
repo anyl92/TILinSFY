@@ -1,0 +1,14 @@
+<form method="POST">
+    {% csrf_token %}
+    <div>
+        <label for="title">제목:</label>
+        <input id="title" name="title" value={{ article.title }}>
+    </div>
+    <div>
+        <label for="content">내용:</label>
+        <textarea id="content" name="content" cols="30" rows="10">{{ article.content }}</textarea>
+    </div>
+    <div>
+        <input type="submit" value="제출">
+    </div>
+</form>
