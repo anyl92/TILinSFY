@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e97c0fe-84d2-4ef2-8555-7c985debf350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1008/14502_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1008/16637_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1008/back_14502.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1008/back_16637_parentheses_add.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_db/add_classmates.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_db/add_one_classmates.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_db/create_table.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_db/delete.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_db/select.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_db/select2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_db/tutorial.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_db/update.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_db/users.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1008/back_14502.py" beforeDir="false" afterPath="$PROJECT_DIR$/1008/back_14502.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1008/back_16637_parentheses_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/1008/back_16637_parentheses_add.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +16,7 @@
     <session id="-1654404558">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.2" value="17" />
           <entry key="project.open.time.3" value="8" />
@@ -49,14 +38,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="75187" />
+          <entry key="py" value="75428" />
           <entry key="txt" value="405" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="405" />
-          <entry key="Python" value="75187" />
+          <entry key="Python" value="75428" />
         </counts>
       </usages-collector>
     </session>
@@ -66,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1008/back_16637_parentheses_add.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="40" lean-forward="true" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+            <state relative-caret-position="133">
+              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -75,12 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1008/back_14502.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-              <folding>
-                <marker date="1570519456430" expanded="true" signature="72:77" ph="..." />
-                <marker date="1570519456430" expanded="true" signature="653:1778" ph="..." />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -171,15 +156,15 @@
         <option value="$PROJECT_DIR$/1002/input.txt" />
         <option value="$PROJECT_DIR$/1002/back_1436_movie.py" />
         <option value="$PROJECT_DIR$/1008/16637_input.txt" />
-        <option value="$PROJECT_DIR$/1008/back_16637_parentheses_add.py" />
         <option value="$PROJECT_DIR$/1008/14502_input.txt" />
+        <option value="$PROJECT_DIR$/1008/back_16637_parentheses_add.py" />
         <option value="$PROJECT_DIR$/1008/back_14502.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="996" />
-    <option name="width" value="931" />
+    <option name="x" value="193" />
+    <option name="width" value="1734" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -377,16 +362,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="996" y="0" width="931" height="1047" extended-state="0" />
+    <frame x="193" y="0" width="1734" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.18360655" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.097788125" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882537" weight="0.3351178" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4261242" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4411135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -428,31 +413,44 @@
           <url>file://$USER_HOME$/Downloads/미로/미로.py</url>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/1008/back_14502.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/1008/back_14502.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/1008/back_14502.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/1008/back_14502.py</url>
-          <line>59</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="mat" language="Python" />
+        <watch expression="safe_cnt" language="Python" />
+        <watch expression="copy_mat" language="Python" />
+        <watch expression="safe_pos" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>safe_pos</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>save_pos</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>copy_mat</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>safe_cnt</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mat</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>mini</expression-string>
         <language-id>Python</language-id>
@@ -475,26 +473,6 @@
       </expression>
       <expression>
         <expression-string>maxx</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cnt</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>tmp_li</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>summ</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>new</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -736,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1008/16637_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1008/14502_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -750,21 +721,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1008/back_16637_parentheses_add.py">
+    <entry file="file://$PROJECT_DIR$/1008/16637_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="40" lean-forward="true" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1008/back_16637_parentheses_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1008/back_14502.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-          <folding>
-            <marker date="1570519456430" expanded="true" signature="72:77" ph="..." />
-            <marker date="1570519456430" expanded="true" signature="653:1778" ph="..." />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
