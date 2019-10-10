@@ -1,13 +1,14 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_GET, require_POST, require_http_methods
-from .forms import ArticleModelForm
-from .models import Article
+from .forms import ArticleModelForm, CommentModelForm
+from .models import Article, Comment
+
 
 from IPython import embed
 
 # CRUD
 @require_http_methods(['GET', 'POST'])
-def new(request):
+def new_article(request):
     # 요청이 GET/POST 인지 확인한다.
     # 만약 POST라면
     if request.method == 'POST':
@@ -37,22 +38,24 @@ def new(request):
         'form': form,
     })
 
-def list(request):
+def article_list(request):
     articles = Article.objects.all()
     return render(request, 'board/list.html', {
         'articles': articles,
     })
 
-def detail(request, id):
-    article = get_object_or_404(Article, id=id)
+def article_detail(request, article_id):
+    article = get_object_or_404(Article, id=article_id)
+    comments = article.comment_set.all().order_by('-id')  # order_by('-id') 마지막에 있는 것부터 나오게 됨
     return render(request, 'board/detail.html', {
         'article': article,
+        'comments': comments,
     })
 
 
 @require_http_methods(['GET', 'POST'])
-def edit(request, id):
-    article = get_object_or_404(Article, id=id)
+def edit_article(request, article_id):
+    article = get_object_or_404(Article, id=article_id)
 
     if request.method == 'POST':
         form = ArticleModelForm(request.POST, instance=article)
@@ -68,7 +71,17 @@ def edit(request, id):
 
 
 @require_POST
-def delete(request, id):
-    article = get_object_or_404(Article, id=id)
+def delete_article(request, article_id):
+    article = get_object_or_404(Article, id=article_id)
     article.delete()
-    return redirect('board:list')
+    return redirect('board:article_list')
+
+
+@require_POST
+def new_comment(request, article_id):  # /board/articles/N/comments/new/   | /board/articles/1/comments/3/delete
+    article = get_object_or_404(Article, id=article_id)
+    comment = Comment()
+    comment.content = request.POST.get('comment_content')
+    comment.article_id = article.id
+    comment.save()
+    return redirect(article)

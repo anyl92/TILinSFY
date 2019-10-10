@@ -1,5 +1,5 @@
 from django import forms
-from .models import Article
+from .models import Article, Comment
 
 
 # Forms.Form => Data 입력 및 검증에 좀 더 치중
@@ -16,4 +16,12 @@ class ArticleModelForm(forms.ModelForm):
     
     class Meta:
         model = Article
+        fields = '__all__'
+
+
+class CommentModelForm(forms.ModelForm):
+    content = forms.CharField(min_length=2, max_length=200)  # 200 을 검증
+
+    class Meta:
+        model = Comment
         fields = '__all__'
