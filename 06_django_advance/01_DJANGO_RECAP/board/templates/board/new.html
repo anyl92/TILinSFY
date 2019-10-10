@@ -4,11 +4,15 @@
 
 {% block body %}
 <h1>New article</h1>
-<form method="POST">
+
+{% include 'board/_form.html' %}
+{% comment %} <form method="POST">
   {% csrf_token %}
   {{ form.as_p }}
   <input type="submit">
-</form>
+</form> {% endcomment %}
+
+
 {% comment %} 왜 중요해요? > db에 반영 될 정보니까! {% endcomment %}
 {% comment %} {% include 'board/_form.html' %} {% endcomment %}
 

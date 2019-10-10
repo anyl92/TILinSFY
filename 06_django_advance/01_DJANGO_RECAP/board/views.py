@@ -1,100 +1,72 @@
 from django.shortcuts import render, redirect, get_object_or_404
-from django.views.decorators.http import require_GET, require_POST
-from .models import Article
-# from . import models 라고 쓰면 아래에서 models.Article 이라고 써야 하므로
+from django.views.decorators.http import require_GET, require_POST, require_http_methods
 from .forms import ArticleModelForm
+from .models import Article
 
+from IPython import embed
 
+# CRUD
+@require_http_methods(['GET', 'POST'])
+def new(request):
+    # 요청이 GET/POST 인지 확인한다.
+    # 만약 POST라면
+    if request.method == 'POST':
+        # ArticleModelForm 의 인스턴스를 생성하고 Data 를 채운다(binding).
+        form = ArticleModelForm(request.POST)
 
-# DB를 조작할 때는 POST, 그냥 받는거는 GET
-@require_GET
-def index(request):
-    return render(request, 'board/index.html')
+        # embed()  # 여기서 코드를 멈춤, shell에 작성하는 코드랑 이어 나감
 
-
-@require_GET
-def list(request):
-    articles = Article.objects.all()  # [<A1>, <A2>, A3>, ...]
-    # context = {'articles': articles} , return 에 context 넣는거랑 똑같음
-    return render(request, 'board/list.html', {
-        'articles': articles,
-        # context 는 반드시 딕셔너리로 들어감
+        # binding 된 form 이 유효한지 체크한다.
+        if form.is_valid():
+            # 유효하다면 저장한다.
+            article = form.save()  # form 이 아니고 실제 알맹이인 article 이 save
+            # 저장한 article 로 redirect 한다.
+            return redirect(article)
+        # # form 이 유효하지 않다면,
+        # else:
+        #     # 유효하지 않은 입력데이터를 담은 HTML과 에러메세지를 사용자에게 보여준다.
+        #     return render(request, 'board/new.html', {
+        #         'form': form,
+        #     })
+    # GET 이라면
+    else:
+        # 비어있는 form(html 생성기) 을 만든다.
+        form = ArticleModelForm()  # html 좀 만들어줘
+    # form 과 html 을 사용자에게 보여준다.
+    return render(request, 'board/new.html', {
+        'form': form,
     })
 
+def list(request):
+    articles = Article.objects.all()
+    return render(request, 'board/list.html', {
+        'articles': articles,
+    })
 
-@require_GET
 def detail(request, id):
-    # try:
-    #     article = Article.objects.get(id=id)
-    # except Article.DoesNotExist:
-    #     raise Http404(f'Can not find ARTICLE with id {id}')
-    # 이렇게 예외처리 하지 말고
-    # 아래처럼 쓰면 간단함
-    # get_object_or_404 import
     article = get_object_or_404(Article, id=id)
-    # 아래 create, update, delete 등에서 다 바꾸기
     return render(request, 'board/detail.html', {
         'article': article,
     })
 
 
+@require_http_methods(['GET', 'POST'])
+def edit(request, id):
+    article = get_object_or_404(Article, id=id)
 
-def new(request):
     if request.method == 'POST':
-        # 데이터의 분류작업을 해줌
-        form = ArticleModelForm(request.POST)
+        form = ArticleModelForm(request.POST, instance=article)
         if form.is_valid():
-            article = form.save() 
+            article = form.save()
             return redirect(article)
-
-        # article = Article()
-        # article.title = request.POST.get('title')
-        # article.content = request.POST.get('content')
-        # article.save()
-        # 저장한 내용을 detail 에서 볼 것이므로 redirect 를 import
-        # return redirect(article)
     else:
-        form = ArticleModelForm()
-    return render(request, 'board/new.html', {
-        'form': form, 
+        # 이전 데이터를 받아와서 그대로 사용할거야
+        form = ArticleModelForm(instance=article)
+    return render(request, 'board/edit.html', {
+        'form': form,
     })
 
 
-# @require_POST
-# def create(request):
-#     article = Article()
-#     article.title = request.POST.get('title')
-#     article.content = request.POST.get('content')
-#     article.save()
-#     # 저장한 내용을 detail 에서 볼 것이므로 redirect 를 import
-#     return redirect('board:detail', article.id)
-
-
-@require_GET
-def edit(request, id):
-    article = get_object_or_404(Article, id=id)
-    if request.method == 'POST':
-        article.title = request.POST.get('title')
-        article.content = request.POST.get('content')
-        article.save()
-        return redirect(article)
-    else:
-        return render(request, 'board/edit.html', {
-            'article': article,
-        })
-
-
-# @require_POST
-# def update(request, id):
-#     article = get_object_or_404(Article, id=id)
-#     article.title = request.POST.get('title')
-#     article.content = request.POST.get('content')
-#     article.save()
-#     # return redirect('boart/detail.html')
-#     return redirect('board:detail', article.id)
-
-
-# post 요청으로 받는 방법
 @require_POST
 def delete(request, id):
     article = get_object_or_404(Article, id=id)
