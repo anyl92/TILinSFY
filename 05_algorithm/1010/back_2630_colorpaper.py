@@ -15,8 +15,8 @@ def divi(N, L):
         for i in range(dir[comb[0]][0], dir[comb[0]][1]):
             li = []
             for j in range(dir[comb[1]][0], dir[comb[1]][1]):
-                li.append(L[i][j])
-            lis.append(li)
+                li += [L[i][j]]
+            lis += [li]
         if counting(len(lis[0]), lis):
             divi(N//2, lis)
     else:
@@ -25,23 +25,39 @@ def divi(N, L):
 
 def counting(N, L):
     global blue, white
-    blue_cnt, white_cnt = 0, 0
+    flag = False
 
+    tmp = L[0][0]
     for i in range(N):
         for j in range(N):
-            if L[i][j] == 1:
-                blue_cnt += 1
-            else:
-                white_cnt += 1
-
-    if N**2 == blue_cnt or N**2 == white_cnt:
-        if N**2 == blue_cnt:
-            blue += 1
-        if N**2 == white_cnt:
-            white += 1
-        return 0
+            if tmp != L[i][j]:
+                flag = True
+                break
+        if flag:
+            return 1
     else:
-        return 1
+        if L[0][0] == 1:
+            blue += 1
+        else:
+            white += 1
+
+
+    # blue_cnt, white_cnt = 0, 0
+    # for i in range(N):
+    #     for j in range(N):
+    #         if L[i][j] == 1:
+    #             blue_cnt += 1
+    #         else:
+    #             white_cnt += 1
+    #
+    # if N**2 == blue_cnt or N**2 == white_cnt:
+    #     if N**2 == blue_cnt:
+    #         blue += 1
+    #     if N**2 == white_cnt:
+    #         white += 1
+    #     return 0
+    # else:
+    #     return 1
 
 
 blue, white = 0, 0
