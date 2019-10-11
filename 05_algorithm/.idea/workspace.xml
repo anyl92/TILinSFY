@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e97c0fe-84d2-4ef2-8555-7c985debf350" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/1011/17070.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1011/back_17070_pipe.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1010/back_2630_colorpaper.py" beforeDir="false" afterPath="$PROJECT_DIR$/1010/back_2630_colorpaper.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,51 +16,60 @@
     <session id="-1654404558">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="30" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.2" value="17" />
+          <entry key="project.open.time.2" value="19" />
           <entry key="project.open.time.3" value="9" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bingo_input" value="2" />
-          <entry key="py" value="291" />
-          <entry key="txt" value="102" />
+          <entry key="py" value="294" />
+          <entry key="txt" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="104" />
-          <entry key="Python" value="291" />
+          <entry key="PLAIN_TEXT" value="105" />
+          <entry key="Python" value="294" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="76830" />
+          <entry key="py" value="78345" />
           <entry key="txt" value="405" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="405" />
-          <entry key="Python" value="76830" />
+          <entry key="Python" value="78345" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1010/back_2630_colorpaper.py">
+        <entry file="file://$PROJECT_DIR$/1011/back_17070_pipe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="742">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="504">
+              <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
               <folding>
-                <marker date="1570704618947" expanded="true" signature="45:46" ph="..." />
-                <marker date="1570704618947" expanded="true" signature="556:558" ph="..." />
+                <marker date="1570783593298" expanded="true" signature="46:48" ph="..." />
+                <marker date="1570783593298" expanded="true" signature="205:771" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1011/17070.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -76,7 +86,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>run</find>
+      <find>x</find>
     </findStrings>
+    <replaceStrings>
+      <replace>r</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -84,9 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/0918/5189_elcar.py" />
-        <option value="$PROJECT_DIR$/0918/5201_carry.py" />
-        <option value="$PROJECT_DIR$/0918/input.txt" />
         <option value="$PROJECT_DIR$/0919/pact2.py" />
         <option value="$PROJECT_DIR$/0919/pract2.py" />
         <option value="$PROJECT_DIR$/0919/1486_shelves.py" />
@@ -135,12 +146,15 @@
         <option value="$PROJECT_DIR$/1008/back_14502.py" />
         <option value="$PROJECT_DIR$/1010/2630.txt" />
         <option value="$PROJECT_DIR$/1010/back_2630_colorpaper.py" />
+        <option value="$PROJECT_DIR$/1.py" />
+        <option value="$PROJECT_DIR$/1011/17070.txt" />
+        <option value="$PROJECT_DIR$/1011/back_17070_pipe.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="846" />
-    <option name="width" value="1081" />
+    <option name="x" value="1075" />
+    <option name="width" value="852" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -151,7 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,12 +175,13 @@
             <path>
               <item name="05_algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="05_algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="1010" type="462c0819:PsiDirectoryNode" />
+              <item name="1011" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.back_2630_colorpaper">
+  <component name="RunManager" selected="Python.back_17070_pipe">
     <configuration name="back_1436_movie" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="05_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,6 +279,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="back_17070_pipe" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="05_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1011" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1011/back_17070_pipe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="back_2630_colorpaper" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="05_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -286,41 +321,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="back_7568" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="05_algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0930" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0930/back_7568.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.back_7568" />
       <item itemvalue="Python.back_1436_movie" />
       <item itemvalue="Python.back_16637_parentheses_add" />
       <item itemvalue="Python.back_14502" />
       <item itemvalue="Python.back_2630_colorpaper" />
+      <item itemvalue="Python.back_17070_pipe" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.back_17070_pipe" />
         <item itemvalue="Python.back_2630_colorpaper" />
         <item itemvalue="Python.back_14502" />
         <item itemvalue="Python.back_16637_parentheses_add" />
         <item itemvalue="Python.back_1436_movie" />
-        <item itemvalue="Python.back_7568" />
       </list>
     </recent_temporary>
   </component>
@@ -338,11 +352,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="846" y="0" width="1081" height="1047" extended-state="0" />
+    <frame x="1075" y="0" width="852" height="1047" extended-state="0" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.15680751" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.1527139" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882537" weight="0.3351178" />
@@ -392,13 +406,23 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="blue" language="Python" />
-        <watch expression="white" language="Python" />
+        <watch expression="L" language="Python" />
+        <watch expression="cnt" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>cnt</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>L</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>white</expression-string>
         <language-id>Python</language-id>
@@ -439,35 +463,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>plan</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/0919/5189_elcar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0916/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0916/pass_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/0917/1865_dongcheol.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -668,34 +666,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1008/back_16637_parentheses_add.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1008/14502_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1008/16637_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1008/back_14502.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1008/back_16637_parentheses_add.py" />
+    <entry file="file://$PROJECT_DIR$/1008/14502_input.txt" />
+    <entry file="file://$PROJECT_DIR$/1008/16637_input.txt" />
+    <entry file="file://$PROJECT_DIR$/1008/back_14502.py" />
     <entry file="file://$PROJECT_DIR$/1010/2630.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -705,11 +679,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1010/back_2630_colorpaper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="741">
+          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.py" />
+    <entry file="file://$PROJECT_DIR$/1011/17070.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1011/back_17070_pipe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding>
-            <marker date="1570704618947" expanded="true" signature="45:46" ph="..." />
-            <marker date="1570704618947" expanded="true" signature="556:558" ph="..." />
+            <marker date="1570783593298" expanded="true" signature="46:48" ph="..." />
+            <marker date="1570783593298" expanded="true" signature="205:771" ph="..." />
           </folding>
         </state>
       </provider>
