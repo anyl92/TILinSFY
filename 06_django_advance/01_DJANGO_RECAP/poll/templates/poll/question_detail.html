@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>{{ question.title }}</h1>
+    <hr>
+    <form action="{% url 'poll:upvote' question.id %}" method="POST">
+        {% csrf_token %}
+        {{ choice_form.as_p }}
+        <input type="submit">
+    </form>
+
+    <ul>
+        {% for choice in choices %}
+            <li>{{ choice.content }}: {{ choice.votes }}</li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
