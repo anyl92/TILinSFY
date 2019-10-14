@@ -1,10 +1,28 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_GET, require_POST, require_http_methods
-from .forms import ArticleModelForm, CommentModelForm
+from .forms import ArticleModelForm, CommentModelForm, ArticleForm
 from .models import Article, Comment
 
-
 from IPython import embed
+'''
+Create Article with Form
+def new_article_with_form(request):
+    if request.method == 'POST':
+        form = ArticleForm(request.POST)
+        if form.is_valid():
+            article = Article()
+            # article.title = request.POST.get('title')  # 검증되지 않은 데이터 (error - 500)
+            article.title = form.cleaned_data.get('title')  # 검증된 데이터
+            article.content = form.cleaned_data.get('content')
+            article.save()
+            return redirect(article)
+    else:
+        form = ArticleForm()
+        return render(request, 'board/new.html', {
+            'form': form,
+        })
+'''
+
 
 # CRUD
 @require_http_methods(['GET', 'POST'])
@@ -47,9 +65,12 @@ def article_list(request):
 def article_detail(request, article_id):
     article = get_object_or_404(Article, id=article_id)
     comments = article.comment_set.all().order_by('-id')  # order_by('-id') 마지막에 있는 것부터 나오게 됨
+    comment_form = CommentModelForm()
+
     return render(request, 'board/detail.html', {
         'article': article,
         'comments': comments,
+        'comment_form': comment_form,
     })
 
 
@@ -80,8 +101,23 @@ def delete_article(request, article_id):
 @require_POST
 def new_comment(request, article_id):  # /board/articles/N/comments/new/   | /board/articles/1/comments/3/delete
     article = get_object_or_404(Article, id=article_id)
-    comment = Comment()
-    comment.content = request.POST.get('comment_content')
-    comment.article_id = article.id
-    comment.save()
+    form = CommentModelForm(request.POST)
+    # embed()
+    if form.is_valid():
+        # comment = Comment()
+        # comment.content = request.POST.get('comment_content')
+        comment = form.save(commit=False)  # 위 두줄과 비슷한 역할을 함
+        comment.article_id = article.id
+        comment.save()
     return redirect(article)
+
+
+@require_POST
+def delete_comment(request, article_id, comment_id):
+
+    # article = get_object_or_404(Article, id=article_id) 
+    comment = get_object_or_404(Comment, id=comment_id, article_id=article_id)
+    # if comment in article.comment_set.all():
+    comment.delete()  # db에서 삭제되나 파이썬 변수에는 남아있음
+
+    return redirect(comment.article)

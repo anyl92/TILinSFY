@@ -26,20 +26,8 @@
     </div>
 
     <hr>
+    {% include 'board/_comment.html' %}
 
-    <form action="{% url 'board:new_comment' article.id %}" method="POST">
-        {% csrf_token %}
-        <input type="text" name="comment_content">
-        <input type="submit">
-    </form>
-
-    {% if comments %}
-        <ul>
-        {% for comment in comments %}
-            <li>{{ comment.content }}</li>
-        {% endfor %}
-        </ul>
-    {% endif %}
     <!-- <script>
         const delButton = document.querySelector('#delButton');
         {% comment %} function popUp () {
