@@ -5,6 +5,8 @@ class Article(models.Model):
     # id 안넣는 이유, 무조건 생성되게 되어있어서
     title = models.CharField(max_length=100)
     content = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
     # 아래는 모두 ORM 에게 확인을 요청하는 과정
     # python manage.py makemigrations board
     # migrations 에서 확인
