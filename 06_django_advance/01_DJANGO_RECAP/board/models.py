@@ -39,7 +39,7 @@ class Article(models.Model):
 
     def get_absolute_url(self):  # detail page 가 있을 때
         return reverse("board:article_detail", kwargs={"article_id": self.id})
-    
+
 
 class Comment(models.Model):
     content = models.CharField(max_length=200)  # 검증이 아님, 맥스 넘으면 그냥 잘라버림
