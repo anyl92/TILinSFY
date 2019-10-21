@@ -8,6 +8,9 @@ $ rm <APP_NAME>/migrations/0*
 
 
 class Posting(models.Model):
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    likes = models.ManyToManyField(
+        settings.AUTH_USER_MODEL, related_name='like_postings', blank=True)
     content = models.TextField()
     icon = models.CharField(max_length=30, default='')
     image = models.ImageField(blank=True)  # blank : 비어있을수도 있다  
