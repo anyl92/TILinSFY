@@ -20,3 +20,11 @@ class Posting(models.Model):
     def __str__(self):
         return f'{self.pk}: {self.content[:20]}'
 
+    @classmethod
+    def dummy(cls, n):
+        for _ in range(n):
+            cls.objects.create(
+                user_id=1,
+                content=f.sentence(),
+                icon='fas fa-angrycreative',
+            )

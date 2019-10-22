@@ -1,0 +1,15 @@
+{% extends 'sns/base.html' %}
+
+{% block title %}{% endblock title %}
+{% block list %}active{% endblock list %}
+
+{% block body %}
+    {% include 'sns/_header.html' %}
+        {% if postings %}
+            <section class="card-columns">
+                {% for posting in postings %}
+                    {% include 'sns/_card.html' %}
+                {% endfor %}
+            </section>
+        {% endif %}
+{% endblock body %}

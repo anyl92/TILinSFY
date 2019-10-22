@@ -1,0 +1,70 @@
+{% extends 'sns/base.html' %}
+
+{% block title %}{% endblock title %}
+
+{% block detail %}active{% endblock detail %}
+
+{% block body %}
+    <div class="row mt-3">
+        <div class="col-12 col-md-6">
+            <div class="card">
+                {% if posting.image %}
+                    {% comment %} {{ posting.image }}
+                    이미지 파일명이 뜸
+                    {% endcomment %}
+                    {% comment %} {{ posting.image.url }}
+                    /media/%EB%B0%B1%EC%A4%80_UU2dBmp.PNG == 파일 경로
+                    /media/ => settings 에서 찾을 곳
+                    {% endcomment %}
+                <!-- 여기도 제출된 image 없을 때 -->
+                    <img class="card-img-top image-fluid" src="{{ posting.image.url }}" alt="{{ posting.image }}">
+                {% else %}
+                    <img class="card-img-top image-fluid" src="http://picsum.photos/500/300" alt="random-image">
+                {% endif %}
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="{{ posting.icon }} fa-2x"></i>
+                        </div>
+                        <div class="col-4">
+                            <small>{{ posting.like_users.count}} 명이 좋아합니다.</small>
+                        </div>
+                        <div class="col-2">
+                            <form action="{% url 'sns:like' posting.id %}" method="POST">
+                                {% csrf_token %}
+                                <button>
+                                    {% comment %} {% if user in posting.like_users.all %} {% endcomment %}
+                                    {% if is_like %}
+                                        Dislike
+                                    {% else %}
+                                        Like
+                                    {% endif %}
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <hr>
+                    <div class="row">
+                        <div class="col-10">
+                            {% comment %} <p class="card-text">{{ posting.user.username }}</p> template 에서는 그냥 알아서 username {% endcomment %}
+                            <p class="card-text">{{ posting.user }}</p>
+                            <p class="card-text">{{ posting.content }}</p>
+                        </div>
+                        <div class="col-2">
+                            {% if user == posting.user %}
+                                <form action="{% url 'sns:delete_posting' posting.id %}" method="POST">
+                                    {% csrf_token %}
+                                    <button>
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </form>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% include 'sns/_comment.html' %}
+    </div>
+{% endblock body %}

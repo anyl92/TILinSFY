@@ -1,0 +1,45 @@
+{% comment %} {% if user.is_authenticated %} {% endcomment %}
+<header class="mt-4">
+    <form action="{% url 'sns:create_posting' %}" enctype="multipart/form-data" method="POST">
+    <!-- multipart/form-data 안쓰면 파일이 넘어가지 않음! 없으면 text 만 넘어감 -->
+    {% csrf_token %}
+        <div class="form-row align-items-center">
+            <!-- icon select -->
+            <div class="col-auto my-1">
+                <label for="icon" class="sr-only">icon</label>
+                <select name="icon" id="icon" class="custom-select mr-sm-2">
+                    <option value="fas fa-question">?</option>
+                    <option value="far fa-smile">:)</option>
+                    <option value="far fa-angry">:(</option>
+                    <option value="far fa-smile-wink">;)</option>
+                    <option value="fab fa-angrycreative">!</option>
+                </select>
+
+            </div>
+            <!-- content input -->
+            <div class="col-sm-6 my-1">
+                <label for="content" class="sr-only">content</label>
+                <!-- screen reader only -->
+                <input id="content" type="text" name="content" class="form-control">
+            </div>
+            <!-- image file input -->
+            <div class="col-sm-4 my-1 input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Upload</span>
+                </div>
+
+                <div class="custom-file">
+                    <!-- input type file 은 위의 enctype multipart/form-data 와 쌍으로 간다고 생각할 것 -->
+                    <input id="image" class="custom-file-input" name="image" type="file" accept="image/*">  <!-- image 파일 중에서 다 -->
+                    <label for="image" class="custom-file-label">Choose image</label>
+                </div>
+            </div>
+
+            <!-- submit button -->
+            <div class="col-auto my-1">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </form>
+</header>
+{% comment %} {% endif %} {% endcomment %}
