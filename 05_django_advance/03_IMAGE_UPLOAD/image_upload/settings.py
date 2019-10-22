@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '0v+fb^x#-px0&_=v!mw(@gqbz(mf-b51qvl6)=2exk(a(qyu=i'
+SECRET_KEY = 'jqfm2z=m-4fw-fgp1q&y(m0^=k=q5#%h0@r(ug!b%gzsuj!t17'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'bootstrap4',
     'django_extensions',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -39,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'sns',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -119,9 +121,4 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/static/'  # 우리가 사용할 js/css/images
-# STATIC_URL = 'edit/'
-
-MEDIA_URL = '/media/'  # 찾을 위치
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # 저장될 위치
-# print(BASE_DIR, '||', MEDIA_ROOT)
+STATIC_URL = '/static/'
