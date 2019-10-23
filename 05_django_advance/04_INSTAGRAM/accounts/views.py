@@ -47,3 +47,23 @@ def login(request):
 def logout(request):
     auth_log_out(request)
     return redirect('/')
+
+
+@require_GET
+def user_page(request, user_id):
+    user_info = get_object_or_404(User, id=user_id)
+    return render(request, 'accounts/user_page.html', {
+        'user_info': user_info,
+    })
+
+
+def follow(request, user_id):
+    fan = request.user  # 요청을 보낸 사용자가 fan 이 됨
+    star = get_object_or_404(User, id=user_id)
+
+    if fan != star:
+        if star.fans.filter(id=fan.id).exists():
+            star.fans.remove(fan)
+        else:
+            star.fans.add(fan)
+    return redirect(star)

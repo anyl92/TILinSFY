@@ -1,0 +1,18 @@
+{% load bootstrap4 %}
+<div class="card-body">
+    <div class="card-footer">
+        <form action="{% url 'postings:create_comment' posting.id %}" method="POST">
+            {% csrf_token %}
+            {% bootstrap_form comment_form %}
+            {% buttons %}
+                <input type="submit" value="게시" class="btn btn-primary">
+            {% endbuttons %}
+        </form>
+    </div>
+    {% for comment in posting.comments.all %}
+    <p class="card-text"><strong>{{comment.author}}</strong> {{comment.content}}</p>
+    {% empty %}  
+    {% comment %} for문을 돌았는데 아무것도 없다면 {% endcomment %}
+    <p class="card-text">댓글이 없습니다.</p>
+    {% endfor %}
+</div>

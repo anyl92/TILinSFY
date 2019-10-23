@@ -11,15 +11,16 @@ User = get_user_model()  # 우회해서 가져온당
 # p.author  # 작성자
 
 
-# class HashTag(TimeStampedModel):
-#     content = models.CharField(max_length=20, unique=True)
+class HashTag(TimeStampedModel):
+    content = models.CharField(max_length=20, unique=True)
 
 
 class Posting(TimeStampedModel):
-    # like_users = models.ManyToManyField(User, related_name='like_posts')
+    like_users = models.ManyToManyField(User, related_name='like_posts')
+    # MTMF 컬럼이 아니고 테이블이 생기는데 뭐랑 뭐를 엮어주냐 (posting, user)
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='postings')  # get_user_model
     content = models.CharField(max_length=140)
-    # hashtags = models.ManyToManyField(HashTag, blank=True, related_name='postings')
+    hashtags = models.ManyToManyField(HashTag, blank=True, related_name='postings')
 
     class Meta:
         ordering = ('-created', )
@@ -38,10 +39,10 @@ class Image(models.Model):
     )
 
 
-# class Comment(TimeStampedModel):
-#     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='comments')
-#     posting = models.ForeignKey(Posting, on_delete=models.CASCADE, related_name='comments')
-#     content = models.CharField(max_length=140)
+class Comment(TimeStampedModel):
+    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='comments')
+    posting = models.ForeignKey(Posting, on_delete=models.CASCADE, related_name='comments')
+    content = models.CharField(max_length=140)
 
 # p = Posting.objects.last()
 # p.image_set.all()  # related_name 이 default

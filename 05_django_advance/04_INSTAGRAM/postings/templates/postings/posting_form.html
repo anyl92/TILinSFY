@@ -5,7 +5,9 @@
 <form method="POST" enctype="multipart/form-data">
     {% csrf_token %}
     {% bootstrap_form posting_form %}
-    {% bootstrap_form image_form show_label=False%}
+    {% if image_form %}
+        {% bootstrap_form image_form show_label=False%}
+    {% endif %}
     {% buttons %}
         <button class="btn btn-primary">Submit</button>
     {% endbuttons %}

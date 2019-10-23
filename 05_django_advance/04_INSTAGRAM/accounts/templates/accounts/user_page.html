@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class='row my-5 mx-auto'>
+    <div class="col-4 d-flex justify-content-center">
+        <!-- 프로필이미지가 들어올공간 -->
+        <!-- 이미지 없으면 기본이미지 사용 -->
+        <img src="https://picsum.photos/100/100" alt="random-image" class="rounded-circle">
+    </div>
+    <div class="col-5">
+        <div class="row ">
+            <h2>{{user_info.username}}</h2>
+            <!-- 팔로우 버튼, 게시물수, 팔로우 수, 자기소개 등이 들어올 공간 -->
+            {% if user != user_info %}
+                <a href="{% url 'accounts:follow' user_info.id %}" class="btn btn-light mx-3">
+                    {% if user_info in user.stars.all %}팔로잉
+                    {% else %}팔로우
+                    {% endif %}
+                </a>
+            {% else %}
+                <a href="#" class="btn btn-light mx-3">프로필 편집</a>
+            {% endif %}
+        </div>
+        <div class="row d-flex justify-content-between">
+            <h4>게시물 {{user_info.postings.count}}</h4>
+            <h4>팔로워 {{user_info.fans.count}}</h4>
+            <h4>팔로우 {{user_info.stars.count}}</h4>
+        </div>
+        <div class="row">
+            <h4>자기소개</h4>
+        </div>
+    </div>
+</div>
+<div class="card-columns">
+    {% for posting in user_info.postings.all %}
+        {% include 'postings/_posting.html' %}
+    {% endfor %}
+</div>
+{% endblock %}

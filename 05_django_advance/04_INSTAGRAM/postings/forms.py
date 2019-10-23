@@ -1,5 +1,5 @@
 from django import forms
-from .models import Posting, Image
+from .models import Posting, Image, Comment
 
 
 class PostingForm(forms.ModelForm):
@@ -17,7 +17,7 @@ class ImageForm(forms.ModelForm):  # 여러개의 사진을 업로드함
         }
 
 
-# class CommentForm(forms.ModelForm):
-#     class Meta:
-#         model = Comment
-#         fields = ('content', )
+class CommentForm(forms.ModelForm):
+    class Meta:
+        model = Comment
+        fields = ('content', )
