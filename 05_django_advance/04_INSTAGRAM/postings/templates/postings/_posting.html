@@ -1,0 +1,27 @@
+<div class="card my-3">
+    {% if posting.images %}
+	    <div id="posting{{posting.id}}" class="carousel slide carousel-fade" data-ride="carousel">
+	        <div class="carousel-inner">
+	            {% for image in posting.images.all %}
+	                <div class="carousel-item {% if forloop.counter == 1 %} active {% endif %}">
+	                    <img src="{{ image.file.url }}" class="d-block w-100">
+	                </div>
+	            {% endfor %}
+					</div>
+	        <a class="carousel-control-prev" href="#posting{{posting.id}}" role="button" data-slide="prev">
+	                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	                <span class="sr-only">Previous</span>
+	        </a>
+	        <a class="carousel-control-next" href="#posting{{posting.id}}" role="button" data-slide="next">
+	            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	            <span class="sr-only">Next</span>
+	        </a>
+	    </div>
+    {% else %}
+        <img src="..." alt="..." class="card-img-top" />
+    {% endif %}
+    <div class="card-body">
+        <p class="card-text">{{posting.content}}</p>
+        <a href="{% url 'postings:update_posting' posting.id %}" class="btn btn-warning">수정</a>
+    </div>
+</div>

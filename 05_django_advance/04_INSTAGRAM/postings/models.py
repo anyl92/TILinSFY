@@ -31,7 +31,7 @@ class Posting(TimeStampedModel):
 class Image(models.Model):
     posting = models.ForeignKey(Posting, on_delete=models.CASCADE, related_name='images')
     file = ProcessedImageField(
-        processors=[ResizeToFit(600, 600)],
+        processors=[ResizeToFit(600, 600, mat_color=(45, 45, 45))], 
         upload_to='postings/images',
         format='JPEG',
         options={'quality': 90},
