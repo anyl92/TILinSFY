@@ -5,9 +5,13 @@ from rest_framework.response import Response
 from django.shortcuts import get_object_or_404
 
 from .models import Artist, Music
-from .serializers import ArtistSerializer, MusicSerializer, ArtistDetailSerializer
+from .serializers import ArtistSerializer, MusicSerializer, ArtistDetailSerializer, CommentSerializer, MusicDetailSerializer
 
 import json
+
+# 달라, 써라, 수정해라, 삭제해라
+# Read, Create, Update, Delete
+# GET, POST, PATCH, DELETE
 
 
 @api_view(['GET'])  # get요청만 처리 하겠다
@@ -48,3 +52,15 @@ def music_detail(request, music_id):
     music = get_object_or_404(Music, id=music_id)
     ser = MusicSerializer(music)
     return Response(ser.data)
+
+
+@api_view(['POST'])
+def create_comment(request, music_id):
+    music = get_object_or_404(Music, id=music_id)
+    ser = CommentSerializer(data=request.data)  # request.POST vs request.data
+    if ser.is_valid(raise_exception=True):
+        ser.save(music_id=music.id)  # 저장 완료
+    return Response(ser.data)  # 저장한 데이터
+
+
+
