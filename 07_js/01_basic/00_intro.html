@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            width: 960px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hi</h1>
+    <p>0</p>
+    <button onclick="plus();">+</button>
+    <button onclick="minus();">-</button>
+
+    <script> // script 태그는 보통 body 맨 아래에, 사용자에게 보이지 않는 코드
+        // one line comment
+        /* multi line comment */
+        
+        /* alert('Welcome to JS');
+
+        document.querySelector('h1')
+        document.querySelector('title')  // 안 보이지만 잡아줌
+        document.querySelector('asdf')  // null
+        document.querySelector('h1').innerText;  // "Hi"  */
+
+        buttons = document.querySelectorAll('button');
+        plusButton = buttons[0];
+        minusButton = buttons[1];
+        
+        
+
+        function plus() {
+            global number;
+            // number = document.querySelector('p').innerText;
+            number = parseInt(number) + 1;
+            document.querySelector('p').innerText = number;
+            console.log('1을 더한 결과 ' + (number+1) + '가 되었습니다.');
+        }
+
+        function minus() {
+            global number;
+            // number = document.querySelector('p').innerText;
+            number = parseInt(number) - 1;
+            document.querySelector('p').innerText = number;
+            console.log(`1을 뺀 결과 ${number} 가 되었습니다.`);
+        }
+        
+        
+
+    </script>
+</body>
+</html>

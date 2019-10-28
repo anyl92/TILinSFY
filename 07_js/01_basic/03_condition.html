@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const userName = prompt('Who are you?');
+        let message = '';
+
+        if (userName === 'Admin') {
+            message = 'This is secret admin page';
+        } else if (userName === 'neo') {
+            message = 'You are from matrix';
+        } else {
+            message = `Hello ${userName}`;
+        }
+
+        document.write(`<h1>${message}</h1>`);
+
+        // 삼항연산자 ternary expression
+        document.write(userName === 'Admin' ? ':)' : ':(');
+    </script>
+</body>
+</html>
