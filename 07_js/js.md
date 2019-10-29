@@ -92,6 +92,8 @@ function fnAnswerMore() {
 
 node.js 설치
 
+quokka.js extensions 설치
+
 vs code에서 node -v 확인 후
 
 f1 quokka.js new javascript file
