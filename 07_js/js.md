@@ -99,3 +99,10 @@ vs code에서 node -v 확인 후
 f1 quokka.js new javascript file
 
 저장하면 안됨 안하고 해야함
+
+
+
+REPL? Read Evaluation Print Loop
+
+1급 객체
+인자로 넘어갈 수 있고, return 으로 나올 수 있다

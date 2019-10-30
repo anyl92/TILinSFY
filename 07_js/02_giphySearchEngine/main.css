@@ -40,7 +40,7 @@ h1 {
 }
 
 .container-image {
-    width: 30%;
+    /* width: 30%; */
     display: block;
     float: left;
     margin-right: 3%;

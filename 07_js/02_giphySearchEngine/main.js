@@ -42,9 +42,9 @@ inputArea.addEventListener('keypress', (event) => {
 // 3. Giphy API 에서 넘겨준 Data 를 index.html 에서 보여준다.
 const searchAndPush = (keyword) => {
     // resultArea.innerHTML = null
-
+    const imageCount = document.querySelector('#js-image-count').value;
     const API_KEY = 'G57tMyU5uZ3u7m8txL5oo8LLYL8KufQO';
-    const url = `https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&q=${keyword}&limit=5&offset=0&rating=G&lang=ko`;
+    const url = `https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&q=${keyword}&limit=${imageCount}&offset=0&rating=G&lang=ko`;
 
     const AJAX = new XMLHttpRequest();  // 요청 준비
     AJAX.open('GET', url);  // 오청 세팅
@@ -59,7 +59,7 @@ const searchAndPush = (keyword) => {
         resultArea.innerHTML = null;
 
         for (const data of dataSet) {
-            pushToDOM(data.images.downsized.url);
+            pushToDOM(data.images.fixed_height.url);
         }
         console.log(giphyData);
 
@@ -68,7 +68,14 @@ const searchAndPush = (keyword) => {
     });
 
     const pushToDOM = (imageUrl) => {
-        resultArea.innerHTML += `<img src="${imageUrl}">`;
+        const imageTag = document.createElement('img');
+        imageTag.src = imageUrl;
+        imageTag.alt = 'giphy-image';
+        imageTag.classList.add('container-image');
+
+        resultArea.appendChild(imageTag);
+
+        // resultArea.innerHTML += `<img src="${imageUrl}" class="container-image" alt="">`;
     }
 };
 
