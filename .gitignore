@@ -1,3 +1,6 @@
+# npm node modules
+node_modules/
+
 .vscode/
 *.ipynb
 # Byte-compiled / optimized / DLL files
