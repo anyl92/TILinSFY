@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cats & dogs</title>
+</head>
+<body>
+    <div id="app">
+        <button v-on:click="getCatImage">냥냥</button>
+        <button v-on:click="getDogImage">멍멍</button>
+        <span>냥냥: {{ catCount }}</span>
+        <span>멍멍: {{ dogCount }}</span>
+        <div>
+            <img 
+                v-for="imageUrl in imageUrls"
+                v-bind:src="imageUrl" 
+                v-if="imageUrls"
+                alt="animal-image" 
+                width="200px"
+                height="200px"
+            >
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                // 맨 처음 app 이 Load 되었을 때의 data 이므로 비어있게
+                catCount: 0,
+                dogCount: 0,
+                imageUrls: [],
+            },
+            // methods === data 바꾸려고 쓰는 함수.
+            methods: {  // methods 에서 key: value 에는 절대 arrow function 사용 X
+                getCatImage: function () {
+                    const URL = 'https://api.thecatapi.com/v1/images/search';
+                    axios.get(URL)
+                        // .then(resJson => resJson.json())  // resJson === JSON문자열
+                        // 이 구간을 axios가 해줌
+                        // .then(resData => this.imageUrl = resData.data[0].url)
+                        // .then(resData => {
+                        //     const whatIWant = resData.data;
+                        //     this.imageUrls.push(whatIWant[0].url);
+                            // arrow function 과 일반 function 을 썼을 때 this 가 다름
+                        .then(res => {
+                            this.imageUrls.push(res.data[0].url);
+                            this.catCount++;
+                        })
+                },
+                getDogImage: function () {
+                    const URL = 'https://dog.ceo/api/breeds/image/random';
+                    // fetch(URL)
+                    //     .then(resJson => resJson.json())
+                    axios.get(URL) // axios는 응답이 이미 파싱된 object/array , key data 안에 있다
+                        // .then(resData => this.imageUrls.push(resData.data.message))
+                        .then(res => {
+                            this.imageUrls.push(res.data.message);
+                            this.dogCount++;
+                        })
+                },
+            },
+        })
+    </script>
+</body>
+</html>

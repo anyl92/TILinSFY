@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo</title>
+    <style>
+        .completed {
+            text-decoration: line-through;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <input type="text"
+            v-model="newTodo"
+            v-on:keyup.enter.ctrl.exact="addTodo"
+        >
+        <button v-on:click="addTodo">+</button>
+        <button v-on:click="clearCompleted">Clear Completed</button>
+
+        <!-- 'v- ' 접두사가 붙으면, Directive 라고 부른다 -->
+        <ul>
+            <!-- 'v-for' 가 있는 Element가 반복 -->
+            <!-- 'v-if' 는 평가식이 true 일 때만 보임 -->
+            <!-- 우선순위 'v-for' > 'v-if' -->
+            <!-- 우선순위 'v-for' > 'v-on' -->
+            <li v-for="todo in todos" v-if="!todo.completed" v-on:click="todo.completed = true">
+                {{ todo.content }}
+            </li>
+            <!-- 'v-else'와 'v-if'는 붙어있어야함 -->
+            <li v-else v-on:click="check(todo)" class="completed">
+                {{ todo.content }}
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {  // data 가 수정된다 === DOM re-render 가 일어난다.
+                newTodo: '',
+                todos: [],
+            },
+            methods: {
+                check: function(todo) {
+                    todo.completed = !todo.completed;
+                    // todo.completed = todo.completed ? false : true
+                },
+                addTodo: function() {
+                    this.todos.push({
+                        content: this.newTodo,
+                        completed: false,
+                    })
+                    this.newTodo = null;
+                },
+                // clearCompleted: function(todos) {
+                    // const newTodos = [];
+                    // for (const todo of this.todos) {
+                    //     if (!todo.completed) {
+                    //         newTodos.push(todo);
+                    //     }
+                    // }
+                    // this.todos = newTodos;
+                //     })
+                // },
+                clearCompleted: function() {
+                    // this.todos = this.todos.filter(todo => !todo.completed);
+                    const newTodos = []
+                    for (const todo of this.todos) {
+                        if (!todo.completed) {
+                            newTodos.push(todo);
+                        }
+                    }
+                    this.todos = newTodos;
+                }
+            },
+        });
+    </script>
+
+</body>
+</html>

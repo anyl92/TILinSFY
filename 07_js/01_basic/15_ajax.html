@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <button id="js-data-load-btn">XHR</button>
+    <!-- XHR: browser 내장, 제일 기본형, 얘가 일 함 -->
+    <button id="js-load-fetch">Fetch</button>
+    <!-- Fetch: browser 제공, XHR 쉽게 쓰게 해줌 -->
+    <button id="js-load-axios">Axios</button>
+    <!-- Axios: 외부 라이브러리. XHR 쉽게 쓰게 해줌 -->
+
+    <div id="js-content-area">
+    
+    </div>
+
+    <script>
+        /* const url = 'https://koreanjson.com';
+        const btn = document.querySelector('#js-data-load-btn');
+        let postId = 1
+        
+        btn.addEventListener('click', () => {
+            // Asynchronous Javascript And XML
+            // html 전환 없이 요청(GET, POST, PATCH, DELETE) 을 보낸다.
+            const AJAX = new XMLHttpRequest(); 
+            AJAX.open('GET', `${url}/posts/${postId++}`);
+            AJAX.send();
+            // load를 기다리고 있다가 되면 콘솔 찍겠다 
+            AJAX.addEventListener('load', (e) => {
+                const area = document.querySelector('#js-content-area');
+                const data = JSON.parse(e.target.response);
+                // console.log(e.target.response);
+                area.innerHTML += `<p>${data.title}</p>`;
+            })
+        }) */
+
+        const url = 'https://koreanjson.com';
+        const btn1 = document.querySelector('#js-data-load-btn');
+        const btn2 = document.querySelector('#js-load-fetch');
+        const btn3 = document.querySelector('#js-load-axios');
+        let postId = 1;
+        
+        btn1.addEventListener('click', () => {
+            // Asynchronous Javascript And XML
+            // html 전환 없이 요청(GET, POST, PATCH, DELETE) 을 보낸다.
+            const AJAX = new XMLHttpRequest(); 
+            AJAX.open('GET', `${url}/posts/${postId++}`);
+            AJAX.send();
+            // load를 기다리고 있다가 되면 콘솔 찍겠다 
+            AJAX.addEventListener('load', (e) => {
+                const area = document.querySelector('#js-content-area');
+                const data = JSON.parse(e.target.response);
+                // console.log(e.target.response);
+                area.innerHTML += `<p>${data.title}</p>`;
+            })
+        })
+        btn2.addEventListener('click', () => {
+            fetch(`${url}/xxposts/${postId++}`)
+                .then(res => res.json())
+                .then(data => {
+                    const area = document.querySelector('#js-content-area');
+                    area.innerHTML += `<p>${data.title}</p>`;
+                })
+                .catch(err => console.error(`${err}`));
+        })
+        
+    </script>
+</body>
+</html>
