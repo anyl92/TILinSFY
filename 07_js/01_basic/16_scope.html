@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // JS Global 변수 -> window에 저장된다
+        glob1 = 1;
+        function qq() {
+            for (t=0; t < 10; t++) {
+            glob2 = 11;
+            }
+            glob3 = 111;
+        }
+        qq();
+
+        // ESS var: function scope
+        for (var i=0; i < 10; i++) {
+            var j = 100;
+        }
+        console.log(i, j);
+        
+        function aa () {
+            var a = 1;
+        }
+        aa();
+        console.log(a);
+
+        // ES6+ let/const: block({}) scope
+        for (let x=0; x < 10; x++) {
+            let y = 100;
+        }
+        console.log(x, y);
+        
+        function bb () {
+            const b = 1;
+        }
+        bb();
+        console.log(b);
+
+        // a, x, b 는 not defined
+    </script>
+</body>
+</html>
