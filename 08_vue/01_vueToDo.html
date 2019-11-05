@@ -7,14 +7,21 @@
         .completed {
             text-decoration: line-through;
             font-style: italic;
+            opacity: 0.6;
         }
     </style>
 </head>
 <body>
     <div id="app">
+        <select v-model="showMode">
+            <option value="all">모두보기</option>
+            <option value="active">할 일보기</option>
+            <option value="done">끝난 일 보기</option>
+        </select>
+        <!-- 'v-model' 사용자 입력 값 <==> vue instance [data] 랑 동기화 -->
         <input type="text"
             v-model="newTodo"
-            v-on:keyup.enter.ctrl.exact="addTodo"
+            v-on:keyup.enter="addTodo"
         >
         <button v-on:click="addTodo">+</button>
         <button v-on:click="clearCompleted">Clear Completed</button>
@@ -22,15 +29,28 @@
         <!-- 'v- ' 접두사가 붙으면, Directive 라고 부른다 -->
         <ul>
             <!-- 'v-for' 가 있는 Element가 반복 -->
+            <!-- 'v-for' 는 반드시 'v-bind:key="UNIQUE_KEY"' 가 있어야 함 -->
             <!-- 'v-if' 는 평가식이 true 일 때만 보임 -->
             <!-- 우선순위 'v-for' > 'v-if' -->
             <!-- 우선순위 'v-for' > 'v-on' -->
-            <li v-for="todo in todos" v-if="!todo.completed" v-on:click="todo.completed = true">
-                {{ todo.content }}
+            <li 
+                v-for="todo in sortedTodos" 
+                v-bind:key="todo.id"
+                v-if="!todo.completed" 
+                v-on:click="todo.completed = true"
+            >
+                <input type="checkbox" v-model="todo.completed">
+                <span>{{ todo.content }}</span>
             </li>
             <!-- 'v-else'와 'v-if'는 붙어있어야함 -->
-            <li v-else v-on:click="check(todo)" class="completed">
-                {{ todo.content }}
+            <!-- <li v-else v-on:click="check(todo)" class="completed"> -->
+            <li v-else 
+                v-bind:key="todo.id"
+                v-on:click="check(todo)" 
+                class="completed"
+            >
+                <input type="checkbox" v-model="todo.completed">
+                <span>{{ todo.content }}</span>
             </li>
         </ul>
     </div>
@@ -38,19 +58,34 @@
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
     <script>
+        const STORAGE_KEY = 'vue-todos';
+        const todoStorage = {
+            load() {
+                // const storageItems = localStorage.getItem(STORAGE_KEY);
+                // return storageItems ? JSON.parse(storageItems) : []
+
+                return JSON.parse(localStorage.getItem(STORAGE_KEY) || []);
+                // ? 비어있는 array, object 를 True로 판단
+            }, 
+            save(todosArray) {
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(todosArray));
+            },
+        };
         const app = new Vue({
             el: '#app',
             data: {  // data 가 수정된다 === DOM re-render 가 일어난다.
                 newTodo: '',
-                todos: [],
+                todos: todoStorage.load(),
+                showMode: 'all',
             },
-            methods: {
+            methods: {  // () 붙임. data 가 수정되는 로직 (setter 함수)
                 check: function(todo) {
                     todo.completed = !todo.completed;
                     // todo.completed = todo.completed ? false : true
                 },
                 addTodo: function() {
                     this.todos.push({
+                        id: Date.now(),
                         content: this.newTodo,
                         completed: false,
                     })
@@ -75,6 +110,36 @@
                         }
                     }
                     this.todos = newTodos;
+                },
+                
+            },
+            computed: { // () 절대 안 붙임. data 를 가공해서 리턴함. 수정x (getter 함수)
+                // ES6+ Object literal object 안에서 편하게 쓸수 있다
+                sortedTodos () {  // 함수 이름이 리턴되는 값
+                    if (this.showMode === 'active') {
+                        // 남은 일들만 보여주기
+                        const notFinished = [];
+                        for (const todo of this.todos) {
+                            if (!todo.completed) {notFinished.push(todo)}
+                        }
+                        return notFinished;
+                    }
+                    else if (this.showMode === 'done') {
+                        // 끝난 일들만 보여주기
+                        return fisithed = this.todos.filter(todo => todo.completed);
+                    }
+                    else { // 모두 보여주기
+                        return this.todos;
+                    }
+                }
+            },
+            watch: {  // 특정 data를 관찰함. 해당 data가 변하면 함수 실행함 <외부 API 사용>
+                // 함수 이름(Key)은 반드시 data의 key값과 같아야 한다.
+                todos: {
+                    handler: function() {
+                    todoStorage.save(this.todos);
+                },
+                deep: true,
                 }
             },
         });
@@ -82,3 +147,9 @@
 
 </body>
 </html>
+
+
+<!-- F12 application
+local storage 직접 지우는 것
+session storage 세션 만료될 때 자동 삭제
+둘 다 중앙 서버에 저장되는 건 아님 -->
