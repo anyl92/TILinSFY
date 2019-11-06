@@ -21,18 +21,21 @@
         <img src="..." alt="..." class="card-img-top" />
     {% endif %}
     <div class="card-body">
-		<form action="{% url 'postings:like' posting.id %}" method="POST">
-            {% csrf_token %}
             <button style="border: 0; background: none;">
-            {% if is_like %}
-                <i class="fas fa-heart fa-lg" style="color: #ed4956;"></i>
-            {% else %}
-                <i class="fas fa-heart fa-lg" style="color: black;">
+                <i
+                    class="{% if is_like %}fas{% else %}far{% endif %}
+                            fa-heart js-like-button"
+                    data-id="{{ posting.id }}"
+                    style="color:crimson"
+                ></i>
+            <!-- {% if is_like %} -->
+                <!-- <i class="fas fa-heart fa-lg" style="color: #ed4956;"></i> -->
+            <!-- {% else %} -->
+                <!-- <i class="fas fa-heart fa-lg" style="color: black;">
                     <span class="badge badge-light"></span>
-                </i>
-            {% endif %}
+                </i> -->
+            <!-- {% endif %} -->
             </button>
-        </form>
 
         <p class="card-text">{{posting.content}}</p>
         <a href="{% url 'postings:update_posting' posting.id %}" class="btn btn-warning">수정</a>
