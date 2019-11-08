@@ -16,6 +16,7 @@
     
     </div>
 
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
         /* const url = 'https://koreanjson.com';
         const btn = document.querySelector('#js-data-load-btn');
@@ -40,6 +41,7 @@
         const btn1 = document.querySelector('#js-data-load-btn');
         const btn2 = document.querySelector('#js-load-fetch');
         const btn3 = document.querySelector('#js-load-axios');
+        const area = document.querySelectorAll('js-#content-area');
         let postId = 1;
         
         btn1.addEventListener('click', () => {
@@ -64,6 +66,14 @@
                     area.innerHTML += `<p>${data.title}</p>`;
                 })
                 .catch(err => console.error(`${err}`));
+        })
+        btn3.addEventListener('click', () => {// 2랑 3중 잘잡는게 axios?
+            axios.get(`${url}/posts/${postId++}`) // 끝나면 promise 될거고 
+                .then(res => res.data)
+                .then(data => {
+                    area.innerHTML += `<p>${data.title}</p>`;
+                })
+                .catch(err => console.error(err))  // 캐치는 한번만
         })
         
     </script>

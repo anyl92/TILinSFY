@@ -10,3 +10,7 @@ const me = {  // Object - 객체
 
 // KEY - VALUE json
 // JavaScript Object Notation : JS 의 Object 처럼 표기하는 방법
+
+
+me.electronicDevice.phone
+me['electronicDevice']['phone']

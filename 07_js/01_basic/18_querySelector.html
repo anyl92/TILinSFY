@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div id="my-id" class="my-class">
+        1
+    </div>
+    <div class="my-class">
+        2
+    </div>
+    <div class="my-class">
+        3
+    </div>
+    <div>
+        4
+    </div>
+    <script>
+        const a = document.querySelector('div');
+        const b = document.querySelector('.my-class');
+        const c = document.querySelector('#my-id');
+
+        const d = document.querySelectorAll('div');
+        const e = document.querySelectorAll('.my-class');
+        const f = document.querySelectorAll('#my-id');
+
+        const g = document.createElement('div');
+        g.classList.add('my-class')
+        const h = document.createElement('#new-one');
+        const i = document.createElement('div#new-one');
+        const j = document.createElement('div.my-class');
+    </script>
+</body>
+</html>

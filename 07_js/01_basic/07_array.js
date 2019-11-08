@@ -14,6 +14,7 @@ numbers.shift();
 // 원본 그대로인 methods
 numbers.includes('a')  // false
 numbers.indexOf(1)  // 0
+numbers.indexOf(100)  // 없으면 -1
 
 numbers.join()  // "1,2,3"
 numbers.join('')  // 123
