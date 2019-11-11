@@ -53,3 +53,4 @@ package.json에서
 
 
 
+src > main.js 이름을 바꿔도 되지만 설정도 바꿔줘야함
