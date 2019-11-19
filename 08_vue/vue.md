@@ -33,7 +33,7 @@ js는 자동으로 일어나는 (python manage.py runserver 같은) 일이 거�
 
 내가 설치해줘야 하는데 그걸 대신해주는게 ^
 
-package.json , bable.comfig.js
+package.json , bable.config.js
 
 node_modules = venv
 
@@ -61,3 +61,7 @@ data 함수로 쓰면 안되는 이유
 
 데이터가 같은 배열 객체를 보고 있기 때문에 복사됨(포인팅하기 때문에 참조)
 
+
+
+$ vue ui
+주피터 같은 거
