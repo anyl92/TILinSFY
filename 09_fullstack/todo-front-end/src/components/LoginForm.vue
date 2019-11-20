@@ -54,6 +54,9 @@
               this.$session.start();  // application에 session-id
               // sessionsStorage.session-id: sess: + Data.now()
               this.$session.set('jwt', res.data.token);
+
+              this.$store.dispatch('login', res.data.token);
+
               router.push('/');  // 새로고침 없이 이동
             })
             .catch(err => {
