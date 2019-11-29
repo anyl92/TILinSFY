@@ -1,12 +1,12 @@
 <template>
     <!-- 반드시 template 안에는 단 한개의 최상단 태그/노드-->
     <div>
-        <!-- <h1>나쁜말 거름종이</h1>
+        <h1>나쁜말 거름종이</h1>
         <input type="text" v-model="input">
-        <p>{{ filteredInput }}</p> -->
+        <p>{{ filteredInput }}</p>
 
         <!-- <div class="static" v-bind:class= "{ active: isActive, error: hasError }">Hi</div> -->
-        <div v-bind:style= "{ color: activeColor, fontsize: fontSize + 'px' }">Hi</div>
+        <!-- <div v-bind:style= "{ color: activeColor, fontsize: fontSize + 'px' }">Hi</div> -->
     </div>
 </template>
 
@@ -16,17 +16,17 @@
 export default {
     name: 'App',
     // data를 function으로 만들어야함
-    // data: function () {
-    //     return {
-    //         input: 'type something',
-    //     }
-    // },
     data: function () {
         return {
-            activeColor: 'red',
-            fontsize: 30
+            input: 'type something',
         }
     },
+    // data: function () {
+    //     return {
+    //         activeColor: 'red',
+    //         fontsize: 30
+    //     }
+    // },
     
     methods: {
         
