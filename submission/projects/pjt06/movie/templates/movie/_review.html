@@ -1,0 +1,14 @@
+<form action="{% url 'movie:new_review' movie.id %}" method="POST">
+    {% csrf_token %}
+    {{ review_form.as_p }}
+    <input type="submit">
+</form>
+    {% if reviews %}
+        <ul>
+        {% for review in reviews %}
+            <li>
+                {{ review.content }}, {{ review.score }}
+            </li>
+        {% endfor %}
+        </ul>
+    {% endif %}

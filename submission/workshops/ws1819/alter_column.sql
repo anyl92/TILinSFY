@@ -1,0 +1,2 @@
+ALTER TABLE bands
+ADD COLUMN members INT

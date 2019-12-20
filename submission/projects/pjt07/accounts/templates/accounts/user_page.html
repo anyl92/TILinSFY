@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <h5>Like Movies ♥</h5>
+    <hr>
+    {% for movie in user_info.like_movies.all  %}
+        <li>
+            <a style="text-decoration: none" href="{% url 'movies:movie_detail' movie.id %}">{{ movie.title }}</li></a>
+    {% endfor %}
+    <hr>
+    <h5>Reviews ♥</h5>
+    {% for review in reviews %}
+        <li>{{ review.movie.title}}:  {{ review.content }} ({{ review.score }})</li></a>
+    {% endfor %}
+    <hr>
+{% endblock body %}

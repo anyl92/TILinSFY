@@ -1,0 +1,23 @@
+<!-- {% load static %} -->
+{% load bootstrap4 %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <title>Movies</title>
+    <script src="https://kit.fontawesome.com/9c5b8f215b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    {% include '_navbar.html' %}
+    <div class="container">
+    {% block body %}
+    {% endblock %}
+    </div>
+    <script src="{% static 'js/jquery-3.3.1.slim.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+</body>
+</html>

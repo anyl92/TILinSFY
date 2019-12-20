@@ -1,0 +1,22 @@
+{% extends 'cinema/base.html' %}
+
+{% block title %} movie list {% endblock %}
+
+{% block body %}
+    <h1>This is Movie list</h1>
+
+<div><a href="{% url 'cinema:new_movie' %}">
+    <button>새 영화 등록</button></a></div>
+
+{% if movies %}
+    <ul>
+        {% for movie in movies %}
+            <li>
+                <a href="{{ movie.get_absolute_url }}">
+                {{ movie.title }}</a> {{ movie.score }}
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+{% endblock body %}

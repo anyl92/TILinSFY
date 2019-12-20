@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<div>
+    {% for movie in movies %}
+    <a href="{% url 'movies:movie_detail' movie.id %}">
+        <img src="{{ movie.poster_url }}" alt="{{ movie.title }}" style="width: 120px; height: auto;">
+    </a>
+    {% endfor %}
+</div>
+
+{% endblock body %}

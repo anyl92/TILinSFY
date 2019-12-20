@@ -1,0 +1,92 @@
+nav {
+    background-color: black;
+    font-family: 'Cute Font', cursive;
+}
+header {
+    height: 350px;
+}
+body {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+span {
+    position: absolute;
+    margin: 7px 0 10px 15px;
+    color: white;
+    font-family: 'Cute Font', cursive;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{  /* 갖다대면 */
+    color: orange;
+}
+a:link{  /* 안눌린 링크*/
+    color: white;
+}
+a:visited{  /* 눌렀다면 */
+    color: white;
+}
+nav.ul {
+    position: absolute;
+    float: right;
+}
+header {
+    position: static;
+    height: 300px;
+    overflow: hidden;
+}
+.sero {
+    margin-top: 200px;
+}
+h2 {
+    font-size: 20px;
+    height:200px;
+    margin-top: 120px;
+}
+.up {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.back{
+    width: 100%;
+    height: 100%;
+}
+footer {
+    position: sticky;
+    padding: 0 3rem;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    background-color: black;
+}
+.footer-name {
+    display: inline-block;
+    color: white;
+}
+.footer-image {
+    display: inline-block;
+}
+.hscore {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+}
+.lscore {
+    display: inline-block;
+    background-color: darkslategray;
+    color: white;
+}
+.fontchange {
+    font-size: 18px;
+}
+.subtitle {
+    margin: 3rem;
+    text-align: center;
+}
+.hr-subtitle {
+    width: 70px;
+}

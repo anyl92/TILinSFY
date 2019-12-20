@@ -1,0 +1,27 @@
+{% extends 'movie/base.html' %}
+{% load humanize %}
+
+{% block title %}영화 상세 정보{% endblock title %}
+
+{% block body %}
+    <a href="{% url 'movie:movie_list' %}">목록으로</a>
+    <h1>{{ movie.title }}</h1>
+    <h2>{{ movie.title_en }}</h2>
+    <div>
+        <p>{{ movie.score }} | {{ movie.genre }} | {{ movie.open_date }}</p>
+        <p>관객수 {{ movie.audience|intcomma }} | {{ movie.watch_grade }}</p>
+        <img src="{{ movie.poster_url }}" alt="{{ movie.title }}" width="500">
+        <p>{{ movie.description }}</p>
+    </div>
+    <div>
+        <a href="{% url 'movie:update_movie' movie.id %}">
+            <button>수정</button>
+        </a>
+        <form action="{% url 'movie:delete_movie' movie.id %}" method="POST" class="d-inline">
+        {% csrf_token %}
+            <input type="submit" value="삭제">
+        </form>
+        <hr>
+    </div>
+    {% include 'movie/_review.html' %}
+{% endblock body %}

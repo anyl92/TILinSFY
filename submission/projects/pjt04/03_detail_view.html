@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./03_detail_view.css">
+  <link href="https://fonts.googleapis.com/css?family=Cute+Font|Nanum+Gothic+Coding:400,700&display=swap&subset=korean"
+    rel="stylesheet">
+  <title>영화추천시스템</title>
+</head>
+
+<body>
+  <nav class="fixed-top">
+    <span>영화추천시스템</span>
+    <ul class="nav justify-content-end ">
+      <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">친구 평점 보러가기</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Log in</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <img class="back" src="./images/background.jpg" alt="배경 이미지">
+    <div class="sero">
+      <h2 class="text-center card-img-overlay">당신에게 어울리는 영화를<br>추천해드립니다.</h2>
+    </div>
+  </header>
+
+  <div class="subtitle">
+    <h3>영화 목록</h3>
+    <hr class="hr-subtitle">
+  </div>
+  
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="./images/20183867.jpg" alt="알라딘" data-toggle="modal"
+            data-target="#movie-1-modal">
+          <div class="card-body">
+            <h4 class="card-title">알라딘</h4>
+            <p class="hscore">9.45</p>
+            <hr>
+            <p>판타지</p>
+            <p>개봉일 : 2019.05.23.</p>
+            <a href="#" target="_blank" class="btn btn-info">영화정보 보러가기</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="./images/20183844.jpg" alt="마이펫의 이중생활2" data-toggle="modal"
+            data-target="#movie-2-modal">
+          <div class="card-body">
+            <h4 class="card-title fontchange">마이펫의 이중생활2</h4>
+            <p class="hscore">9.12</p>
+            <hr>
+            <p>애니메이션</p>
+            <p>개봉일 : 2019.07.31.</p>
+            <a href="#" target="_blank" class="btn btn-info">영화정보 보러가기</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="./images/20198323.jpg" alt="레드슈즈" data-toggle="modal"
+            data-target="#movie-3-modal">
+          <div class="card-body">
+            <h4 class="card-title">레드슈즈</h4>
+            <p class="hscore">9.24</p>
+            <hr>
+            <p>애니메이션</p>
+            <p>개봉일 : 2019.07.25.</p>
+            <a href="#" target="_blank" class="btn btn-info">영화정보 보러가기</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="./images/20180442.jpg" alt="사자" data-toggle="modal"
+            data-target="#movie-4-modal">
+          <div class="card-body">
+            <h4 class="card-title">사자</h4>
+            <p class="lscore">8.32</p>
+            <hr>
+            <p>미스터리</p>
+            <p>개봉일 : 2019.07.31.</p>
+            <a href="#" target="_blank" class="btn btn-info">영화정보 보러가기</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="./images/20184621.jpg" alt="엑시트" data-toggle="modal"
+            data-target="#movie-5-modal">
+          <div class="card-body">
+            <h4 class="card-title">엑시트</h4>
+            <p class="hscore">9.07</p>
+            <hr>
+            <p>코미디</p>
+            <p>개봉일 : 2019.07.31.</p>
+            <a href="#" target="_blank" class="btn btn-info">영화정보 보러가기</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="./images/20175771.jpg" alt="라이온 킹" data-toggle="modal"
+            data-target="#movie-6-modal">
+          <div class="card-body">
+            <h4 class="card-title">라이온 킹</h4>
+            <p class="lscore">8.7</p>
+            <hr>
+            <p>모험</p>
+            <p>개봉일 : 2019.07.17.</p>
+            <a href="#" target="_blank" class="btn btn-info">영화정보 보러가기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <span class="footer-name">YULIM</span>
+    <div class="footer-image float-right"><a href="#"><img class="up cut" src="./images/화살표.png" alt="화살표"></a>
+    </div>
+    <!-- <img class="footer-name" src="./images/background.jpg" alt="푸터배경"> -->
+  </footer>
+
+  <!-- Modal-1-aladin -->
+  <div>
+    <div class="modal fade" id="movie-1-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalScrollableTitle">알라딘, Aladin</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="carousel-1" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="image-size d-block w-100" src="./images/20183867-01.jpg" alt="알라딘상세1">
+                </div>
+                <div class="carousel-item">
+                  <img class="image-size d-block w-100" src="./images/20183867-02.jpg" alt="알라딘상세2">
+                </div>
+                <div class="carousel-item">
+                  <img class="image-size d-block w-100" src="./images/20183867-03.jpg" alt="알라딘상세3">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <div class="modal-c-m">
+              <p>12세이상관람가</p>
+              <p>누적 관객수 : 2,962,455</p>
+              <hr>
+              <p>"머나먼 사막 속 신비의 아그라바 왕국의 시대.   좀도둑 ‘알라딘’은 마법사 ‘자파’의 의뢰로 마법 램프를 찾아 나섰다가   주인에게 세 가지 소원을 들어주는 지니를 만나게 되고,   자스민 공주의 마음을 얻으려다 생각도 못했던 모험에 휘말리게 되는데…
+                "
+                </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal-2-mypet -->
+  <div>
+      <div class="modal fade" id="movie-2-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalScrollableTitle">마이펫, The Secret Life of Pets 2</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div id="carousel-2" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="image-size d-block w-100" src="./images/20183844-01.jpg" alt="마이펫상세1">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="image-size d-block w-100" src="./images/20183844-02.jpg" alt="마이펫상세2">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="image-size d-block w-100" src="./images/20183844-03.jpg" alt="마이펫상세3">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <div class="modal-c-m">
+                <p>전체관람가</p>
+                <p>누적 관객수 : 806,450</p>
+                <hr>
+                <p>"“세상에 나쁜 개는 없다는데… 우리 애는 도대체 무슨 생각인 거죠?”
+                  집을 비우면 다시 시작되는 펫들의 시크릿 라이프!   집구석 걱정에 하루도 편할 날이 없는 ‘맥스’   캣닢을 사랑하는 자유로운 영혼 ‘클로이’   슈퍼히어로를 따라 하는 토끼 ‘스노우볼’   완벽하게 고양이가 되고픈 강아지 ‘기젯’까지   아직도 나만 몰랐던 마이펫들의 속마음이 공개된다!      “우릴 키운다고? 그건 니 생각이고~”
+                  "
+                  </p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal-3-red -->
+  <div>
+      <div class="modal fade" id="movie-3-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalScrollableTitle">레드슈즈, Red Shoes</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div id="carousel-3" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="image-size d-block w-100" src="./images/20198323-01.jpg" alt="레드상세1">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="image-size d-block w-100" src="./images/20198323-02.jpg" alt="레드상세2">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="image-size d-block w-100" src="./images/20198323-03.jpg" alt="레드상세3">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-3" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-3" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <div class="modal-c-m">
+                <p>전체관람가</p>
+                <p>누적 관객수 : 604,746</p>
+                <hr>
+                <p>"사건 사고가 끊이지 않는 동화의 섬. 사라진 아빠를 찾던 화이트 왕국의 공주는 
+                   우연히 마법구두를 신고 이전과 완벽하게 다른 ‘레드슈즈’로 거듭난다. 
+                   한편, 초록색 난쟁이가 된 일곱 왕자들은 우연히 자신들의 집에 머물게 된 '레드슈즈’가 
+                   저주를 풀 유일한 희망이라 생각해 그녀를 돕기 시작하고, 영원한 아름다움을 꿈꾸는 왕비 ‘레지나’는 
+                   마법구두를 신고 성을 빠져나간 ‘레드슈즈’를 쫓기 시작하는데… 
+                    
+                   위기에 빠진 동화의 섬, 
+                   레드슈즈, 그리고 일곱 왕자들의 운명은?"
+                  </p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal-4-rion -->
+  <div>
+      <div class="modal fade" id="movie-4-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalScrollableTitle">사자, The Divine Fury</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div id="carousel-4" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="image-size d-block w-100" src="./images/20180442-01.jpg" alt="사자상세1">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="image-size d-block w-100" src="./images/20180442-02.jpg" alt="사자상세2">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="image-size d-block w-100" src="./images/20180442-03.jpg" alt="사자상세3">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-4" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-4" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <div class="modal-c-m">
+                <p>15세이상관람가</p>
+                <p>누적 관객수 : 1,415,607</p>
+                <hr>
+                <p>"줄거리
+                  어릴 적 아버지를 잃은 뒤 세상에 대한 불신만 남은 격투기 챔피언 ‘용후’(박서준).   어느 날 원인을 알 수 없는 깊은 상처가 손바닥에 생긴 것을 발견하고,  도움을 줄 누군가가 있다는 장소로 향한다.  그곳에서 바티칸에서 온 구마사제 ‘안신부’(안성기)를 만나   자신의 상처 난 손에 특별한 힘이 있음을 깨닫게 되는 ‘용후’.   이를 통해 세상을 혼란에 빠뜨리는 악(惡)의 존재를 알게 되고,  강력한 배후이자 악을 퍼뜨리는 검은 주교 ‘지신’(우도환)을 찾아 나선 ‘안신부’와 함께 하게 되는데...!    악의 편에 설 것인가   악에 맞설 것인가   신의 사자가 온다!
+                  "
+                  </p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal-5-exit -->
+  <div>
+      <div class="modal fade" id="movie-5-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalScrollableTitle">엑시트, Exit</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div id="carousel-5" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="image-size d-block w-100" src="./images/20184621-01.jpg" alt="엑시트상세1">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="image-size d-block w-100" src="./images/20184621-02.jpg" alt="엑시트상세2">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="image-size d-block w-100" src="./images/20184621-03.jpg" alt="엑시트상세3">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-5" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-5" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <div class="modal-c-m">
+                <p>12세이상관람가</p>
+                <p>누적 관객수 : 4,335,373</p>
+                <hr>
+                <p>"짠내 폭발 청년백수, 전대미문의 진짜 재난을 만나다!
+                  대학교 산악 동아리 에이스 출신이지만  졸업 후 몇 년째 취업 실패로 눈칫밥만 먹는 용남은  온 가족이 참석한 어머니의 칠순 잔치에서  연회장 직원으로 취업한 동아리 후배 의주를 만난다  어색한 재회도 잠시, 칠순 잔치가 무르익던 중  의문의 연기가 빌딩에서 피어 오르며  피할 새도 없이 순식간에 도심 전체는 유독가스로 뒤덮여 일대혼란에 휩싸이게 된다.  용남과 의주는 산악 동아리 시절 쌓아 뒀던 모든 체력과 스킬을 동원해  탈출을 향한 기지를 발휘하기 시작하는데…"
+                  </p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal-6-king -->
+  <div>
+      <div class="modal fade" id="movie-6-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalScrollableTitle">라이온 킹, The Lion King</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div id="carousel-6" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="image-size d-block w-100" src="./images/20185771-01.jpg" alt="킹상세1">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="image-size d-block w-100" src="./images/20185771-02.jpg" alt="킹상세2">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="image-size d-block w-100" src="./images/20185771-03.jpg" alt="킹상세3">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-6" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-6" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <div class="modal-c-m">
+                <p>전체관람가</p>
+                <p>누적 관객수 : 4,616,202</p>
+                <hr>
+                <p>"새로운 세상, 너의 시대가 올 것이다!
+                  어린 사자 ‘심바’는 프라이드 랜드의 왕인 아버지 ‘무파사’를   야심과 욕망이 가득한 삼촌 ‘스카’의 음모로 잃고 왕국에서도 쫓겨난다.      기억해라! 네가 누군지.      아버지의 죽음에 대한 죄책감에 시달리던 ‘심바’는   의욕 충만한 친구들 ‘품바’와 ‘티몬’의 도움으로 희망을 되찾는다.   어느 날 우연히 옛 친구 ‘날라’를 만난 ‘심바’는 과거를 마주할 용기를 얻고,   진정한 자신의 모습을 찾아 위대하고도 험난한 도전을 떠나게 되는데…
+                  제작노트 보기
+                  "
+                  </p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

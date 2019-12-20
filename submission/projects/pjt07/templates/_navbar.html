@@ -1,0 +1,32 @@
+<nav class="mb-3 navbar sticky-top navbar-expand-lg navbar-light bg-light px-5">
+    <a class="navbar-brand" href="{% url 'movies:movie_list' %}">
+        <i class="fas fa-film"></i> | Movies
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            {% if user.is_authenticated %}
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'accounts:user_detail' user.id %}">{{ user.username }}</a>
+            </li>
+            <li class="nav-item">
+                <a href="{% url 'accounts:logout' %}" class="nav-link">Logout</a>
+            </li>
+            <li class="nav-item">
+                <a href="{% url 'accounts:user_list' %}" class="nav-link">Users</a>
+            </li>
+            {% else %}
+            <li class="nav-item">
+                <a href="{% url 'accounts:signup' %}" class="nav-link">Signup</a>
+            </li>
+            <li class="nav-item">
+                <a href="{% url 'accounts:login' %}" class="nav-link">Login</a>
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+</nav>

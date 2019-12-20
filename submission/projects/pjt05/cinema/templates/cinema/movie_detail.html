@@ -1,0 +1,44 @@
+{% extends 'cinema/base.html' %}
+{% load humanize %}
+
+{% block css %}
+<style>
+    .ui-button {
+        display: inline-block;
+    }
+</style>
+{% endblock css %}
+
+{% block title %}Movie detail{% endblock title %}
+
+{% block body %}
+    <h3>{{ movie.title }}, {{ movie.title_en }}</h3>
+    <p>관객수 : {{ movie.audience|intcomma }}</p>
+    <p>개봉일 : {{ movie.open_date }}</p>
+    <p>장르 : {{ movie.genre }}</p>
+    <p>관람등급 : {{ movie.watch_grade }}</p>
+    <p>평점 : {{ movie.score }}</p>
+    <img src="{{ movie.poster_url }}" alt="image" width="200">
+    <div>{{ movie.description }}</div>
+    <br>
+    <div>
+        <div class="ui-button">
+            <a href="{% url 'cinema:movie_list'%}">
+                <button>목록</button>
+            </a>
+        </div>
+        <div class="ui-button">
+            <a href="{% url 'cinema:update_movie' movie.id %}">
+                <button>수정</button>
+            </a>
+        </div>
+        <div class="ui-button">
+            <form action="{% url 'cinema:delete_movie' movie.id %}" method="POST">
+                {% csrf_token %}
+                <input onclick="return confirm('영화 정보가 삭제됩니다.')" type="submit" value="삭제">
+            </form>
+        </div>
+    </div>
+
+
+{% endblock body %}

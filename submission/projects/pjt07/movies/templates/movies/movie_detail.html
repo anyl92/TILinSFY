@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+{% load humanize %}
+
+{% block title %}{% endblock title %}
+{% block body %}
+
+<div class="card mb-3" style="max-width: 5000px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="{{ movie.poster_url }}" alt="{{ movie.title }}" style="width: 300px;" />
+    </div>
+
+    <div class="col-md-8">
+      <div class="card-body">
+        <div>
+          <h5 class="card-title" style="display:inline;">{{ movie.title }}</h5>
+          <form action="{% url 'movies:like_save' movie.id %}" method="POST" style="display:inline;">
+            {% csrf_token %}
+            <button style="border: 0; background: none;">
+              {% if is_like %}
+              <i class="fas fa-heart fa-lg" style="color:#ed4956"></i>
+              {% else %}
+              <i class="far fa-heart fa-lg" style="color:black;"></i>
+              {% endif %}
+            </button>
+          </form>
+        </div>
+
+        <p class="card-text">
+          <p>누적 관객수 : {{ movie.audience|intcomma }} | 장르 : {{ movie.genre.name }}</p>
+          <p>{{ movie.description }}</p>
+        </p>
+
+        <div class="card-text"><small class="text-muted">
+            <ul>
+              {% for review in movie.reviews_set.all %}
+              <li>
+                <div>
+                  <strong>{{ review.user }}: </strong>
+                  {{ review.content }} ({{ review.score }})
+
+                  {% if user == review.user %}
+                  <form style="display:inline;" action="{% url 'movies:review_delete' movie.id review.id %}"
+                    method="POST">
+                    {% csrf_token %}
+                    <button style="padding:0; border:none; background:none;">
+                      <i class="fas fa-trash"></i>
+                    </button>
+                  </form>
+                </div>
+                {% endif %}
+              </li>
+              {% endfor %}
+            </ul>
+          </small></div>
+
+      {% if request.user.is_authenticated %}
+      <form method="POST" action="{% url 'movies:review_create' movie.id%}">
+        {% csrf_token %}
+        {% bootstrap_form review_form %}
+        {% buttons %}
+        <button class="btn btn-info">제출</button>
+        {% endbuttons %}
+      </form>
+      {% endif %}
+    </div>
+  </div>
+</div>
+</div>
+</div>
+{% endblock body %}
